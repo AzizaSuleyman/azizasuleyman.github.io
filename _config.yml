@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Aziza Suleymanzade
-title: Postdoctoral Research Fellow
-email: azizadubna@gmail.com
+title: Physicist
+email: azizas@uchicago.edu
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Highlight # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
