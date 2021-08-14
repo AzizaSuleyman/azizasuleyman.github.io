@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 twitter_username: AzizaS
-github_username:  AzizaSuleyman
+#github_username:  AzizaSuleyman
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -59,7 +59,7 @@ content:
     content:
       - layout: top-middle
         title: PhD thesis
-        link: github.com/sproogen
+        link: Documents/AzizaPhDThesis.pdf
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
