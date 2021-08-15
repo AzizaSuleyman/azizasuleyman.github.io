@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   #supports such as
   #  - Lists
   #  - Tables
-  #  - <a href="https://www.google.com">Links</a>
+    - <a href="https://www.google.com">Links</a>
   #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 
@@ -63,16 +63,10 @@ content:
     content:
       - layout: top-middle
         title: PhD thesis
-        <a href="azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
-        link:
+        <a href="https://azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
+        link: <a href="https://azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
         link_text: PDF
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+         
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
