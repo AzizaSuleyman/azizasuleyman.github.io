@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+#favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -84,8 +84,8 @@ content:
         caption: November 2017 - Present
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs 
-    	  Coming soon..
+        #description: | # this will include new lines to allow paragraphs 
+    	#Coming soon..
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
