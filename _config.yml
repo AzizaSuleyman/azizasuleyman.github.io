@@ -49,12 +49,12 @@ linkedin_username: aziza-suleymanzade-00b21076
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Aziza and I'm a Postdoctoral Fellow at Harvard University. 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) 
-  supports such as
-    - Lists
-    - Tables
-    - <a href="https://www.google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) 
+  #supports such as
+  #  - Lists
+  #  - Tables
+  #  - <a href="https://www.google.com">Links</a>
+  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 
 content:
@@ -63,8 +63,8 @@ content:
     content:
       - layout: top-middle
         title: PhD thesis
-        link: Documents/AzizaPhDThesis.pdf
-        # link_text: Project Website
+        link: <a href="azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
+        link_text: PDF
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
