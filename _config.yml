@@ -63,7 +63,8 @@ content:
     content:
       - layout: top-middle
         title: PhD thesis
-        link: <a href="azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
+        <a href="azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
+        link:
         link_text: PDF
         additional_links:
           - title:  sproogen/modern-resume-theme
