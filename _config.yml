@@ -63,7 +63,8 @@ content:
     content:
       - layout: top-middle
         title: PhD thesis
-        <a href="https://azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
+        quote: >
+          <a href="https://azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
         link: <a href="https://azizasuleyman.github.io/Documents/AzizaPhDThesis.pdf" target="_blank">PDF.</a>
         link_text: PDF
          
