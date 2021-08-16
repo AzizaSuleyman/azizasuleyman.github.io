@@ -75,7 +75,6 @@ content:
           
         description: | # this will include new lines to allow paragraphs
     
-    content:
       - layout: left
         title: University of Cambridge
         caption: 2013 - 2014
@@ -84,7 +83,6 @@ content:
           
         description: | # this will include new lines to allow paragraphs
     
-    content:
       - layout: left
         title: University of Chicago
         caption: 2014 - 2021
