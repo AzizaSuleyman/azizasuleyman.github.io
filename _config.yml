@@ -49,7 +49,7 @@ linkedin_username: aziza-suleymanzade-00b21076
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Aziza and I'm a Postdoctoral Fellow at Harvard University. 
-  <a href="https://azizasuleyman.github.io/Documents/thesisMPhilAziza.pdf" >MPhil.</a>
+  <a href="https://azizasuleyman.github.io/Documents/thesisMPhilAziza.pdf" type="application/pdf" target="_blank" >MPhil.</a>
 
 content:
   - title: Highlight # Title for the section
