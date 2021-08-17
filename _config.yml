@@ -1,5 +1,6 @@
 # Site
-repository: azizasuleyman/modern-resume-theme
+repository: asuleyman
+#azizasuleyman/modern-resume-theme
 #sproogen/resume-theme
 #favicon: images/favicon.ico
 
@@ -109,7 +110,7 @@ footer_show_references: true
 references_title: References on request (Override references text)
 
 # Build settings
-theme: modern-resume-theme
+theme: azizasuleyman
 #remote_theme: azizasuleyman/modern-resume-theme
 #remote_theme: sproogen/resume-theme
 
