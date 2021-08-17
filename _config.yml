@@ -60,12 +60,10 @@ content:
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: PDF
-        
-        Maybe image 
-        ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-        quote: >
-          
         description: | # this will include new lines to allow paragraphs
+          Maybe image 
+          ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+        quote: >
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,8 +73,7 @@ content:
         caption: 2009 - 2013
         sub_title: AB Physics
         quote: > 
-        description: | 
-          
+        description: |
     
       - layout: left
         title: University of Cambridge
