@@ -82,11 +82,7 @@ content:
         quote: >
         description: |
           "Ultracold atoms experiment for trapping 39K in an optical box trap." 
-          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" type = "blank"> Thesis PDF </a>
-       
-
-        link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf"
-        link_text: MPhil Thesis 
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF </a>
 
       - layout: left
         title: University of Chicago
@@ -95,8 +91,7 @@ content:
         quote: >
         description: |
           "MILLIMETER WAVE PHOTONS FOR HYBRID QUANTUM SYSTEMS"
-        link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
-        link_text: PhD Thesis 
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF </a>
           
 
   - title: A Little More About Me
