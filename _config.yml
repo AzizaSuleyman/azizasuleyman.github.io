@@ -78,8 +78,10 @@ content:
     
       - layout: left
         title: University of Cambridge
-        quote: > 2013 - 2014
-        description: | MPhil Physics # this will include new lines to allow paragraphs
+        quote: >
+          2013 - 2014
+        description: |
+          MPhil Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Chicago
