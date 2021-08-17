@@ -58,16 +58,11 @@ content:
       - layout: top-middle
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
-        link_text: "Millimeter wave photons for hybrid quantum systems."
-        content:
-          - layout: right
-            description: | # this will include new lines to allow paragraphs
-              <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
-          
+        link_text: "Millimeter wave photons for hybrid quantum systems."          
         quote: > 
           shdgfskjhdgfsdgfhsgdjhsgdkd
         description: | # this will include new lines to allow paragraphs
-          <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video> sdkjhfvlskdjgksdhjfg
+          <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 1280px;" class = "center"></video> sdkjhfvlskdjgksdhjfg
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
