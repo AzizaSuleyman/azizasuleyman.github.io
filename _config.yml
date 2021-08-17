@@ -59,9 +59,10 @@ content:
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: Thesis PDF
+        content:
           - layout: right
-          description: | # this will include new lines to allow paragraphs
-            <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
+            description: | # this will include new lines to allow paragraphs
+              <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
           
           
         quote: > 
