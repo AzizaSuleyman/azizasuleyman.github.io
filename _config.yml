@@ -63,7 +63,8 @@ content:
         link_text: PDF
         description: | # this will include new lines to allow paragraphs
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
-        quote: >
+          sdkjhfvlskdjgksdhjfg
+        quote: > shdgfskjhdgfsdgfhsgdjhsgdkd
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
