@@ -69,26 +69,19 @@ content:
     content:
       - layout: left
         title: Harvard University
-        caption: 
-        sub_title: 
+        #caption:
+        #sub_title:
         quote: > 2009 - 2013
-          
         description: | AB Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Cambridge
-        caption: 
-        sub_title: 
         quote: > 2013 - 2014
-          
         description: | MPhil Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Chicago
-        caption: 
-        sub_title: 
         quote: > 2014 - 2021
-          
         description: | PhD Physics # this will include new lines to allow paragraphs
           
 
