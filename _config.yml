@@ -82,6 +82,8 @@ content:
         quote: >
         description: |
           "Ultracold atoms experiment for trapping 39K in an optical box trap."
+       
+      - layout: right
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf"
         link_text: MPhil Thesis 
 
