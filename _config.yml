@@ -82,7 +82,7 @@ content:
         quote: >
         description: |
           "Ultracold atoms experiment for trapping 39K in an optical box trap." 
-          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" > PDF </a>
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" type = "blank"> Thesis PDF </a>
        
 
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf"
