@@ -73,7 +73,8 @@ content:
         #sub_title:
         quote: > 
           2009 - 2013
-        description: | AB Physics # this will include new lines to allow paragraphs
+        description: | 
+          AB Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Cambridge
