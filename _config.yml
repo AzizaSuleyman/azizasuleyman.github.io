@@ -60,7 +60,9 @@ content:
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: PDF
-
+        
+        Maybe image 
+        ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
         quote: >
           
         description: | # this will include new lines to allow paragraphs
@@ -70,28 +72,29 @@ content:
     content:
       - layout: left
         title: Harvard University
-        #caption:
-        #sub_title:
+        caption: 2009 - 2013
+        sub_title: AB Physics
         quote: > 
-          2009 - 2013
         description: | 
-          AB Physics
+          
     
       - layout: left
         title: University of Cambridge
+        caption: 2013 - 2014
+        sub_title: MPhil Physics
         quote: >
-          2013 - 2014
         description: |
-          MPhil Physics, "Ultracold atoms experiment for trapping 39K in an optical box trap."
+          "Ultracold atoms experiment for trapping 39K in an optical box trap."
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf"
         link_text: MPhil Thesis 
 
       - layout: left
         title: University of Chicago
+        caption: 2014 - 2021
+        sub_title: PhD Physics
         quote: >
-          2014 - 2021
         description: |
-          PhD Physics, "MILLIMETER WAVE PHOTONS FOR HYBRID QUANTUM SYSTEMS"
+          "MILLIMETER WAVE PHOTONS FOR HYBRID QUANTUM SYSTEMS"
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: PhD Thesis 
           
