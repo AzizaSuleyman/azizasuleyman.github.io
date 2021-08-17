@@ -50,8 +50,7 @@ linkedin_username: aziza-suleymanzade-00b21076
 # about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Aziza and I'm a Postdoctoral Fellow at Harvard University working on quantum technology with SiV in diamonds. 
-
+  Hi, my name's Aziza and I'm a Postdoctoral Fellow at Harvard University working on quantum science with Silicon Vacancy Centers in diamonds. I love building hybrid quantum systems made of light using Cavity and Circuit QED platforms. Some of my previous work was on building nonlinear photonic systrems using Rydberg atoms, superconducting circuits in the millimeter-wave band and optical cavities.  
 
 content:
   - title: Highlight # Title for the section
