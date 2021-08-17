@@ -58,12 +58,11 @@ content:
       - layout: top-middle
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
-        link_text: Thesis PDF
+        link_text: "Millimeter wave photons for hybrid quantum systems."
         content:
           - layout: right
             description: | # this will include new lines to allow paragraphs
               <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
-          
           
         quote: > 
           shdgfskjhdgfsdgfhsgdjhsgdkd
@@ -95,7 +94,7 @@ content:
         sub_title: PhD Physics
         quote: >
         description: |
-          "MILLIMETER WAVE PHOTONS FOR HYBRID QUANTUM SYSTEMS"
+          "Millimeter wave photons for hybrid quantum systems."
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF </a>
           
 
