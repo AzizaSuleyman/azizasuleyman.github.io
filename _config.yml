@@ -50,8 +50,7 @@ linkedin_username: aziza-suleymanzade-00b21076
 # about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Aziza and I'm a Postdoctoral Fellow at Harvard University working on quantum science with Silicon Vacancy Centers in diamonds. I love building hybrid quantum systems made of light using Cavity and Circuit QED platforms. Some of my previous work was on building nonlinear photonic systrems using Rydberg atoms, superconducting circuits in the millimeter-wave band and optical cavities.  
-
+  Hi, my name’s Aziza, and I’m a Postdoctoral Fellow at Harvard University working on quantum science with Silicon Vacancy Centers in diamonds. I build hybrid quantum systems made of light using cavity and circuit QED platforms. Some of my previous work was on synthesizing nonlinear photonic systems using Rydberg atoms, superconducting circuits in the millimeter-wave band, and optical cavities.
 content:
   - title: Highlight # Title for the section
     layout: list # Type of content section (list/text)
@@ -59,7 +58,12 @@ content:
       - layout: top-middle
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
-        link_text: PDF
+        link_text: Thesis PDF
+          - layout: right
+          description: | # this will include new lines to allow paragraphs
+            <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 630px;" class = "center"></video>
+          
+          
         quote: > 
           shdgfskjhdgfsdgfhsgdjhsgdkd
         description: | # this will include new lines to allow paragraphs
