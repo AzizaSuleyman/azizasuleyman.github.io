@@ -69,11 +69,11 @@ content:
     content:
       - layout: left
         title: Harvard University
-        caption: 2009 - 2013
-        sub_title: AB Physics
-        quote: >
+        caption: 
+        sub_title: 
+        quote: > 2009 - 2013
           
-        description: | # this will include new lines to allow paragraphs
+        description: | AB Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Cambridge
