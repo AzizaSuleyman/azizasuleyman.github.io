@@ -99,11 +99,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in physics some of my other interests and hobbies are:
-      - Ballroom Dancing 
       - Science Animation
-      
-      Maybe image 
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Ballroom Dancing
 
 # Footer
 footer_show_references: true
