@@ -71,7 +71,8 @@ content:
         title: Harvard University
         #caption:
         #sub_title:
-        quote: > 2009 - 2013
+        quote: > 
+          2009 - 2013
         description: | AB Physics # this will include new lines to allow paragraphs
     
       - layout: left
