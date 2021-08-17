@@ -85,8 +85,10 @@ content:
     
       - layout: left
         title: University of Chicago
-        quote: > 2014 - 2021
-        description: | PhD Physics # this will include new lines to allow paragraphs
+        quote: >
+          2014 - 2021
+        description: |
+          PhD Physics # this will include new lines to allow paragraphs
           
 
   - title: A Little More About Me
