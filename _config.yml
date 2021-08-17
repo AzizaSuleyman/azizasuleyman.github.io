@@ -60,8 +60,7 @@ content:
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: "Millimeter wave photons for hybrid quantum systems."          
         quote: > 
-          shdgfskjhdgfsdgfhsgdjhsgdkd
-        description: | # this will include new lines to allow paragraphs
+          Here, I discuss our work on building a hybrid quantum system for entangling and interconverting single optical and millimeter wave photons using Rydberg atoms as mediators. In addition, I describe our efforts in developing quantum technology in the millimeter wave frequency band and its potential benefits for a wide range of applications.        description: | # this will include new lines to allow paragraphs
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 668px;" class = "center"></video> sdkjhfvlskdjgksdhjfg
           
   - title: Education # Title for the section
