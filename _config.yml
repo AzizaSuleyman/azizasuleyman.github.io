@@ -74,21 +74,21 @@ content:
         quote: > 
           2009 - 2013
         description: | 
-          AB Physics # this will include new lines to allow paragraphs
+          AB Physics
     
       - layout: left
         title: University of Cambridge
         quote: >
           2013 - 2014
         description: |
-          MPhil Physics # this will include new lines to allow paragraphs
+          MPhil Physics
     
       - layout: left
         title: University of Chicago
         quote: >
           2014 - 2021
         description: |
-          PhD Physics # this will include new lines to allow paragraphs
+          PhD Physics
           
 
   - title: A Little More About Me
