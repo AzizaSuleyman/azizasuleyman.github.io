@@ -109,7 +109,7 @@ footer_show_references: true
 references_title: References on request (Override references text)
 
 # Build settings
-theme: azizasuleyman/modern-resume-theme
+theme: modern-resume-theme
 #remote_theme: azizasuleyman/modern-resume-theme
 #sproogen/resume-theme
 
