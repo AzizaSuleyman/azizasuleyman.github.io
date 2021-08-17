@@ -77,19 +77,19 @@ content:
     
       - layout: left
         title: University of Cambridge
-        caption: 2013 - 2014
-        sub_title: MPhil Physics
-        quote: >
+        caption: 
+        sub_title: 
+        quote: > 2013 - 2014
           
-        description: | # this will include new lines to allow paragraphs
+        description: | MPhil Physics # this will include new lines to allow paragraphs
     
       - layout: left
         title: University of Chicago
-        caption: 2014 - 2021
-        sub_title: PhD Physics
-        quote: >
+        caption: 
+        sub_title: 
+        quote: > 2014 - 2021
           
-        description: | # this will include new lines to allow paragraphs
+        description: | PhD Physics # this will include new lines to allow paragraphs
           
 
   - title: A Little More About Me
