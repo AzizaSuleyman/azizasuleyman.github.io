@@ -75,6 +75,7 @@ content:
         caption: 2009 - 2013
         sub_title: AB Physics
         quote: > 
+          "Research: particle physics phenomena at the LCH, ATLAS experiment"
         description: |
     
       - layout: left
@@ -82,8 +83,9 @@ content:
         caption: 2013 - 2014
         sub_title: MPhil Physics
         quote: >
+          "Research: Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential" 
         description: |
-          Generating Bose Eistein Condensates of 39K atoms with interactions in a uniform potential "Ultracold atoms experiment for trapping 39K in an optical box trap." 
+          "Ultracold atoms experiment for trapping 39K in an optical box trap." 
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF </a>
 
       - layout: left
@@ -91,6 +93,7 @@ content:
         caption: 2014 - 2021
         sub_title: PhD Physics
         quote: >
+          "Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology" 
         description: |
           "Millimeter wave photons for hybrid quantum systems."
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF </a>
