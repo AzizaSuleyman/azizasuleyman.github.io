@@ -66,8 +66,7 @@ content:
         
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 768px;" class = 'center'></video> 
         
-        quote: > 
-          Blender animation of an experimental sequence inside of our cryogenic chamber
+          "Blender animation of an experimental sequence inside of our cryogenic chamber"
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -84,7 +83,7 @@ content:
         sub_title: MPhil Physics
         quote: >
         description: |
-          "Ultracold atoms experiment for trapping 39K in an optical box trap." 
+          Generating Bose Eistein Condensates of 39K atoms with interactions in a uniform potential "Ultracold atoms experiment for trapping 39K in an optical box trap." 
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF </a>
 
       - layout: left
