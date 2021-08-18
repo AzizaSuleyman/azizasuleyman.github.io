@@ -66,6 +66,9 @@ content:
         
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 768px;" class = 'center'></video> 
         
+     content:
+      - layout: top-middle
+        quote: > 
           "Blender animation of an experimental sequence inside of our cryogenic chamber"
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
