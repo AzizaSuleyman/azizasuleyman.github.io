@@ -43,8 +43,8 @@ linkedin_username: aziza-suleymanzade-00b21076
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-google_analytics: "G-7N3C97D3RQ"
+gtag: "G-7N3C97D3RQ"
+# google_analytics: ""
 
 # About Section
 # about_title: About Me
