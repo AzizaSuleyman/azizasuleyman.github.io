@@ -77,7 +77,7 @@ content:
         quote: > 
           
         description: |
-          "Research: particle physics phenomena at the LCH, ATLAS experiment"
+          Research: particle physics phenomena at the LCH, ATLAS experiment
           
       - layout: left
         title: University of Cambridge
@@ -85,7 +85,7 @@ content:
         sub_title: MPhil Physics
         quote: >
         description: |
-          "Research: Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential" 
+          Research: Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential 
           "Ultracold atoms experiment for trapping 39K in an optical box trap." 
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF </a>
 
@@ -94,9 +94,9 @@ content:
         caption: 2014 - 2021
         sub_title: PhD Physics
         quote: >
-          "Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology" 
+          Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology
         description: |
-          "Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology" 
+          Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology 
           "Millimeter wave photons for hybrid quantum systems."
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF </a>
           
