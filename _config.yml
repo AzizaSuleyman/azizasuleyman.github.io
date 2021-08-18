@@ -76,7 +76,8 @@ content:
         quote: > 
           
         description: |
-          Particle physics phenomena at the LCH, ATLAS experiment
+          Particle physics phenomena at the LCH, ATLAS experiment \
+          <a href="https://lppc.physics.harvard.edu" target="_blank"> Melissa Franklin Group </a>
           
       - layout: left
         title: University of Cambridge
