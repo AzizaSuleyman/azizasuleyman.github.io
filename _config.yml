@@ -66,10 +66,6 @@ content:
         
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 768px;" class = 'center'></video> 
         
-     content:
-      - layout: top-middle
-        quote: > 
-          "Blender animation of an experimental sequence inside of our cryogenic chamber"
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -88,7 +84,7 @@ content:
         sub_title: MPhil Physics
         quote: >
         description: |
-          Research: Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential 
+          Research: Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential \
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF: </a> "Ultracold atoms experiment for trapping 39K in an optical box trap." 
           
 
@@ -98,7 +94,7 @@ content:
         sub_title: PhD Physics
         quote: >
         description: |
-          Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology 
+          Research: entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology \
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF: </a> "Millimeter wave photons for hybrid quantum systems."
           
           
