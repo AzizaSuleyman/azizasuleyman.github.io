@@ -85,7 +85,8 @@ content:
         quote: >
         description: |
           Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential. \
-          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF: </a> "Ultracold atoms experiment for trapping 39K in an optical box trap." 
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF: </a> "Ultracold atoms experiment for trapping 39K in an optical box trap." \
+          <a href="http://www-amop.phy.cam.ac.uk/amop-zh/" target="_blank"> Hadzibabic Group </a>
           
 
       - layout: left
@@ -96,7 +97,7 @@ content:
         description: |
           Entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology \
           <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF: </a> "Millimeter wave photons for hybrid quantum systems." \
-          <a href="http://simonlab.uchicago.edu/" target="_blank"> SimonLab </a> and <a href="http://schusterlab.uchicago.edu" target="_blank"> SchusterLab </a>  
+          <a href="http://simonlab.uchicago.edu/" target="_blank"> Simon Lab </a> and <a href="http://schusterlab.uchicago.edu" target="_blank"> Schuster Lab </a>  
           
           
 
