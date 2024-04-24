@@ -32,10 +32,17 @@ about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name’s Aziza, and I’m a Postdoctoral Fellow at Harvard University working on building quantum networks with Silicon Vacancy Centers in diamond nanophotonic cavities. I build hybrid quantum systems with light using cavity and circuit QED platforms. Some of my previous work was on creating nonlinear photonic systems using Rydberg atoms, superconducting circuits in the millimeter-wave band, and optical cavities.
 content:
-  - title: Highlights # Title for the section
+  - title: Research Highlights # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: PhD thesis
+        link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
+        link_text: "Title: Millimeter wave photons for hybrid quantum systems."          
+        quote: > 
+          Here, I discuss our work on building a hybrid quantum system for entangling and interconverting single optical and millimeter wave photons using Rydberg atoms as mediators. In addition, I describe our efforts in developing quantum technology in the millimeter wave frequency band and its potential benefits for a wide range of applications.         
+        description: | # this will include new lines to allow paragraphs
+        
         title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: "Title: Millimeter wave photons for hybrid quantum systems."          
