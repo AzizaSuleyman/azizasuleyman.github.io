@@ -36,14 +36,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: PhD thesis
+        - title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: "Title: Millimeter wave photons for hybrid quantum systems."          
         quote: > 
           Here, I discuss our work on building a hybrid quantum system for entangling and interconverting single optical and millimeter wave photons using Rydberg atoms as mediators. In addition, I describe our efforts in developing quantum technology in the millimeter wave frequency band and its potential benefits for a wide range of applications.         
         description: | # this will include new lines to allow paragraphs
         
-        title: PhD thesis
+        - title: PhD thesis
         link: "http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: "Title: Millimeter wave photons for hybrid quantum systems."          
         quote: > 
