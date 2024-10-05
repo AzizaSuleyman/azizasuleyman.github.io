@@ -1,6 +1,6 @@
 ---
-title: "Headings"
-subtitle: "Build something great with our products"
+title: People
+subtitle: The magic behind the science
 featured_image: assets/img/demo/blog-02.jpg
 ---
 
