@@ -3,7 +3,7 @@ title:
 # subtitle: The magic behind the science
 # featured_image: assets/img/demo/blog-02.jpg
 ---
-{% include components/teams/team-carousel-2.html %}
+{% include components/teams/team-carousel-5.html %}
 
 --- 
 #### Getting Started
