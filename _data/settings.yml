@@ -21,7 +21,7 @@ blog_settings:
     # basic – a simple list of posts
     # narrow – a masonary grid of posts
     # grid – a full-width square grid of posts
-  theme: narrow
+  theme: basic
   # Should we display a narrow grid of other posts at the bottom of each blog post?
   read_more: "yes"
 
@@ -59,32 +59,32 @@ menu_settings:
     #   url: '/contact'
 
 footer_settings:
-  footer_tagline: Argon & Jekyll, together at last.
+  footer_tagline: Entanglement Generation Lab
 
-contact_settings:
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
-  confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
-  send_button_text: 'Send Message'
+# contact_settings:
+#   form_action: 'https://formspree.io/hello@jekyllthemes.io'
+#   confirmation_url: '/thanks'
+#   email_subject: 'Contact form submission'
+#   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/jekyllthemes/'
-  twitter_url: 'https://twitter.com/jekyllthemesio'
-  instagram_url: 'https://twitter.com/jekyllthemesio'
+  # facebook_url: 'https://www.facebook.com/jekyllthemes/'
+  twitter_url: 'https://twitter.com/AzizaS'
+  # instagram_url: 'https://twitter.com/jekyllthemesio'
   youtube_url: ''
   vimeo_url: ''
   pinterest_url: ''
   tumblr_url: ''
   dribbble_url: ''
   behance_url: ''
-  github_url: 'https://twitter.com/jekyllthemesio'
+  github_url: 'https://github.com/AzizaSuleyman'
   reddit_url: ''
   linkedin_url: ''
 
 authors:
   tom:
-    name: Tom
-    picture: /assets/img/faces/team-1.jpg
+    name: Aziza
+    picture: /assets/img/faces/Aziza.jpg
   jane:
     name: Jane
     picture: /assets/img/faces/team-4.jpg
