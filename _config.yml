@@ -1,7 +1,7 @@
-site: Argon Jekyll Theme
+site: azizasuleyman
 
 url: https://azizasuleyman.github.io/
-baseurl: https://azizasuleyman.github.io/
+baseurl:
 
 collections:
   pages:
