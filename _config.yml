@@ -2,7 +2,7 @@
 repository: asuleyman
 favicon: images/favicon.ico
 
-# Content configuration versionRb85
+# Content configuration version
 version: 2
 
 # Personal info
@@ -28,7 +28,7 @@ gtag: "G-7N3C97D3RQ"
 # google_analytics: ""
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name’s Aziza and I’m a Postdoctoral Fellow at Harvard University in Quantum Information Science. I am interested in building hybrid quantum 
@@ -37,16 +37,18 @@ about_content: | # this will include new lines to allow paragraphs
   Some of my previous work was on creating nonlinear photonic systems using Rydberg atoms, superconducting circuits in the millimeter-wave band,
    and optical cavities.
 content:
-  - title: Research Highlights # Title for the section
+  - title: Highlight # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: PhD thesis
         link: "https://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf"
         link_text: "Title: Millimeter wave photons for hybrid quantum systems."          
-        quote: >
-          Here, I discuss our work on building a hybrid quantum system for entangling and interconverting single optical and millimeter wave photons using Rydberg atoms as mediators. In addition, I describe our efforts in developing quantum technology in the millimeter wave frequency band and its potential benefits for a wide range of applications.            
+        quote: > 
+          Here, I discuss our work on building a hybrid quantum system for entangling and interconverting single optical and millimeter wave photons using Rydberg atoms as mediators. In addition, I describe our efforts in developing quantum technology in the millimeter wave frequency band and its potential benefits for a wide range of applications.  
+                
         description: | # this will include new lines to allow paragraphs
+        
           <video src="https://github.com/AzizaSuleyman/azizasuleyman.github.io/raw/main/videos/NonlinearCartoonFull.mp4" controls="controls" style="max-width: 768px;" class = 'center'></video> 
         
   - title: Education # Title for the section
@@ -56,45 +58,40 @@ content:
         title: Harvard University
         caption: 2009 - 2013
         sub_title: AB Physics
-        quote: > 
-          
         description: |
           Particle physics phenomena at the LCH, ATLAS experiment \
           <a href="https://lppc.physics.harvard.edu" target="_blank"> Melissa Franklin's Group </a>
-          
+
       - layout: left
         title: University of Cambridge
         caption: 2013 - 2014
         sub_title: MPhil Physics
-        quote: >
         description: |
           Bose Eistein Condensates of 39K atoms with interactions in a uniform box potential. \
-          <a href="https://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF: </a> "Ultracold atoms experiment for trapping 39K in an optical box trap." \
-          <a href="https://www-amop.phy.cam.ac.uk/amop-zh/" target="_blank"> Hadzibabic Group </a>
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_MasterThesis.pdf" target="_blank"> Thesis PDF: </a> "Ultracold atoms experiment for trapping 39K in an optical box trap." \
+          <a href="http://www-amop.phy.cam.ac.uk/amop-zh/" target="_blank"> Hadzibabic Group </a>
           
 
       - layout: left
         title: University of Chicago
         caption: 2014 - 2021
         sub_title: PhD Physics
-        quote: >
         description: |
           Entangling and interconverting single optical and mm-wave photons using Rydberg atoms. MM-wave quantum technology \
-          <a href="https://simonlab.stanford.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF: </a> "Millimeter wave photons for hybrid quantum systems." \
-          <a href="https://simonlab.stanford.edu/" target="_blank"> Simon Lab </a> and <a href="https://schusterlab.stanford.edu/" target="_blank"> Schuster Lab </a>  
+          <a href="http://simonlab.uchicago.edu/theses/SuleymanzadeAziza_PhDThesis.pdf" target="_blank"> Thesis PDF: </a> "Millimeter wave photons for hybrid quantum systems." \
+          <a href="http://simonlab.uchicago.edu/" target="_blank"> Simon Lab </a> and <a href="http://schusterlab.uchicago.edu" target="_blank"> Schuster Lab </a>  
           
           
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Alongside my interests in physics some of my other interests and hobbies are:
       - Science Animation
 
 
 # Footer
 footer_show_references: true
-#references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: azizasuleyman
