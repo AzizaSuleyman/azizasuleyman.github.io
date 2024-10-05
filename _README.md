@@ -154,5 +154,4 @@ If you need help with using the **Argon design system itself**, you should visit
 
 If you have any questions or feedback about the **Jekyll features** of the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers!
 
-🤘
 

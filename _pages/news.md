@@ -1,5 +1,5 @@
 ---
-title: Blog Example - List 
+title: 
 subtitle: Perfect for text heavy blog posts
 ---
 

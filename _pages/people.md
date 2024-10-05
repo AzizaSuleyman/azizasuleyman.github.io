@@ -1,8 +1,9 @@
 ---
-title: People
-subtitle: The magic behind the science
-featured_image: assets/img/demo/blog-02.jpg
+title:
+# subtitle: The magic behind the science
+# featured_image: assets/img/demo/blog-02.jpg
 ---
+{% include components/teams/team-carousel-2.html %}
 
 --- 
 #### Getting Started
@@ -13,13 +14,13 @@ Any component or section present in the [Argon Pro docs](https://demos.creative-
 This template can be edited and changed in _pages/headings.md.
 
 ---
-```components/headers/header-1.html ```
+
 {% include components/headers/header-1.html %}
 
 ---
-```components/headers/header-2.html ```
+
 {% include components/headers/header-2.html %}
 
 ---
-```components/headers/header-3.html ```
+
 {% include components/headers/header-3.html %}
