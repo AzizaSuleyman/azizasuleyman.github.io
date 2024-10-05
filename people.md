@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Group Members
-permalink: /about/
+permalink: /people/
 ---
 
 PI: Aziza Suleymanzade
