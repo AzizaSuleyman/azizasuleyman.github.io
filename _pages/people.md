@@ -1,9 +1,9 @@
 ---
-title:
+title: Meet our awesome team
 # subtitle: The magic behind the science
-# featured_image: assets/img/demo/blog-02.jpg
+featured_image: assets/img/demo/blog-02.jpg
 ---
-{% include components/teams/team-carousel-5.html %}
+{% include components/teams/people-carousel.html %}
 
 --- 
 #### Getting Started
