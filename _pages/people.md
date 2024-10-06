@@ -7,9 +7,7 @@ featured_image: assets/img/ill/GoldenGateBridge.jpg
 
 --- 
 #### We are looking for new team members
-If you want to join our efforts to build completely new hybrid quantum platforms to use entangled for applicaitons in quanutm computing, networks and sensing. Get in touch with [Argon Pro docs](https://demos.creative-tim.com/argon-design-system-pro/docs/1.0/getting-started/overview.html) can be used.
-
----
+If you want to join our efforts to build completely new hybrid quantum platforms to use entangled for applicaitons in quanutm computing, networks and sensing. 
 
 {% include components/headers/contact.html %}
 
