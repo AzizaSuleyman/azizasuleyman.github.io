@@ -1,8 +1,8 @@
 ---
 title: Lab renovations begin!
-date: 2024-10-06 00:00:00
-description: This is a demo post ..
-featured_image: /assets/img/sections/twk-tt.jpg
+date: 2024-10-06 00:00:01
+description: Starting from the drawings
+featured_image: /assets/img/NewsContent/2024-10-06/BirgeHallGoogleMaps.png
 author: Aziza
 ---
 
