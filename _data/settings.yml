@@ -39,6 +39,8 @@ menu_settings:
       url: /People       
     - title: 'Lab News!'
       url: /News
+    - title: 'Publications'
+      url: /Pubs
       # icon: ni-bullet-list-67 text-default    
       # submenu_items:
       # - title: Blog
