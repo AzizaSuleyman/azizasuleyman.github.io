@@ -82,15 +82,15 @@ social_settings:
   linkedin_url: ''
 
 authors:
-  tom:
+  Aziza:
     name: Aziza
     picture: /assets/img/faces/Aziza1.jpg
-  jane:
-    name: Jane
-    picture: /assets/img/faces/team-4.jpg
-  michael:
-    name: Michael
-    picture: /assets/img/faces/michael.jpg
+  # jane:
+  #   name: Jane
+  #   picture: /assets/img/faces/team-4.jpg
+  # michael:
+  #   name: Michael
+  #   picture: /assets/img/faces/michael.jpg
 
 advanced_settings:
   analytics_code: 
