@@ -42,6 +42,6 @@ You can use the slider from the Argon Design System by adding HTML to your posts
       </div>
     </section>
 
-1. Knaut, C. M., Suleymanzade, A., Wei, Y. C., Assumpcao, D. R., Stas, P. J., Huan, Y. Q., ... & Lukin, M. D. (2024). Entanglement of nanophotonic quantum memory nodes in a telecom network. Nature, 629(8012), 573-578. 
+1. Knaut, C. M., Suleymanzade $$^*$$ , A., Wei, Y. C., Assumpcao, D. R., Stas, P. J., Huan, Y. Q., ... & Lukin, M. D. (2024). Entanglement of nanophotonic quantum memory nodes in a telecom network. Nature, 629(8012), 573-578. 
 2. Like this other one
 3. Are great too
