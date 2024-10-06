@@ -1,6 +1,6 @@
 ---
-title: 
-subtitle: Perfect for text heavy blog posts
+title: The latest news from the lab
+subtitle: 
 ---
 
 ### List
