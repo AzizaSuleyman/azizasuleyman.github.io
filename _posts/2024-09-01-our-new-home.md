@@ -1,5 +1,5 @@
 ---
-title: Hello, world!
+title: Hello, world
 date: 2024-09-02 00:00:01
 description: We have a home on the UC Berkeley campus.
 featured_image: /assets/img/NewsContent/2024-09-02/BirgeHallGoogleMaps.png
