@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page-header header-filter" style="width: 100vw; margin-left: calc(50% - 50vw);">
-  <div class="page-header-image" style="background-image: url({{ page.featured_image | relative_url }});"></div>
+  <!-- <div class="page-header-image" style="background-image: url({{ page.featured_image | relative_url }});"></div> -->
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center pt-8">
@@ -44,7 +44,7 @@ layout: default
 {% if site.data.settings.blog_settings.read_more == "yes" %}
 <section class="blogs-1">
   <div class="container">
-    <h2 class="title mb-5">You might also like...</h2>
+    <h2 class="title mb-5">Other news...</h2>
 
     {% assign psize = site.posts | size %}
     {% if psize == 0 %}
