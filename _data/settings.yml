@@ -41,6 +41,8 @@ menu_settings:
       url: /News
     - title: 'Publications'
       url: /Pubs
+    - title: 'Research'
+      url: /Research
       # icon: ni-bullet-list-67 text-default    
       # submenu_items:
       # - title: Blog
