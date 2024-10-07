@@ -5,8 +5,6 @@ description: Selection of recent publications
 featured_image: /assets/img/pages/nathan-dumlao.jpg
 ---
 
-### Highlights
-
 {% include components/teams/pubs-carousel.html %}
 
 
