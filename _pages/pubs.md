@@ -12,7 +12,7 @@ featured_image: /assets/img/pages/HybridFull.png
 
 * Bersin, E., Sutula, M., Huan, Y. Q., Suleymanzade, A., Assumpcao, D. R., Wei, Y.-C., Stas, P.-J., Knaut, C. M., Knall, E. N., Langrock, C., Sinclair, N., Murphy, R., & Lukin, M. D. *(2024)*. **Telecom networking with a diamond quantum memory**. [PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010303/), 5(1). [Arxiv](https://arxiv.org/abs/2307.08619/).
 
-* Kumar, A., Suleymanzade, A., Stone, M., Taneja, L., Anferov, A., Schuster, D. I., & Simon, J. *(2023)*. **Quantum-enabled millimetre wave to optical transduction using neutral atoms.** [Nature](https://www.nature.com/articles/s41586-023-05740-2/), 615(7953), 614-619. [Arxiv](https://arxiv.org/abs/2207.10121/)
+* Kumar, A., Suleymanzade, A., Stone, M., Taneja, L., Anferov, A., Schuster, D. I., & Simon, J. *(2023)*. **Quantum-enabled millimeter wave to optical transduction using neutral atoms.** [Nature](https://www.nature.com/articles/s41586-023-05740-2/), 615(7953), 614-619. [Arxiv](https://arxiv.org/abs/2207.10121/)
 
 * Stas, P. J., Huan, Y. Q., Machielse, B., Knall, E. N., Suleymanzade, A., Pingault, B., ... & Lukin, M. D. *(2022)*. **Robust multi-qubit quantum network node with integrated error detection.** [Science](https://www.science.org/doi/full/10.1126/science.add9771?casa_token=3DXi_yX-yMIAAAAA%3AUc6Y4JZiQla99Fc6SwgDq6YkgLhZfj1_-XeR_zW_U_QhpWLwPvM1VmAWi1jEG3Vziyo8IFseX6Oo/), 378(6619), 557-560. [Arxiv](https://arxiv.org/abs/2207.13128) 
 
