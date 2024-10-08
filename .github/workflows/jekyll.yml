@@ -5,6 +5,11 @@ on:
     branches: ["main"]  # Change this to your default branch
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -16,17 +21,21 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Specify the Ruby version
+          ruby-version: '3.1'
           bundler-cache: true
 
       - name: Install Dependencies
         run: bundle install
 
       - name: Build Site with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          # Optionally, specify a custom domain
+          # cname: 'www.yourdomain.com'
