@@ -28,11 +28,10 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install Updated Bundler
-        run: gem install bundler -v 2.3.26 # Update Bundler to a version that works with Ruby 3.1
-
       - name: Install Dependencies
-        run: bundle install
+        run: |
+          echo "gem 'rexml'" >> Gemfile
+          bundle install
 
       - name: Setup Pages
         id: pages
