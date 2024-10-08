@@ -1,14 +1,8 @@
-# Site settings
 site: SuleymanzadeLab
-title: SuleymanzadeLab
-description: Your site description # Add a description here
+
 url: https://azizasuleyman.github.io/
-baseurl: ""
+baseurl:
 
-# GitHub Metadata settings
-repository: azizasuleyman/azizasuleyman.github.io
-
-# Collections
 collections:
   pages:
     output: true
@@ -18,7 +12,6 @@ collections:
     permalink: /blog/:slug
     type: "post"
 
-# Defaults
 defaults:
   -
     scope:
@@ -38,21 +31,15 @@ defaults:
     values:
       layout: "post" 
 
-# Sass settings
 sass:
   sass_dir: assets/styles
   style: compressed
   sourcemap: never
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Pagination
 paginate: 6
 paginate_path: "/blog/page:num/"
-
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-argon
+  
