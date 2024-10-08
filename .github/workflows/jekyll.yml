@@ -1,45 +1,32 @@
-site: SuleymanzadeLab
+name: Build and Deploy Jekyll Site to GitHub Pages
 
-url: https://azizasuleyman.github.io/
-baseurl:
+on:
+  push:
+    branches: ["main"]  # Change this to your default branch
+  workflow_dispatch:
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
-    type: "post"
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post" 
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-sass:
-  sass_dir: assets/styles
-  style: compressed
-  sourcemap: never
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # Specify the Ruby version
+          bundler-cache: true
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+      - name: Install Dependencies
+        run: bundle install
 
-paginate: 6
-paginate_path: "/blog/page:num/"
-  
+      - name: Build Site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
