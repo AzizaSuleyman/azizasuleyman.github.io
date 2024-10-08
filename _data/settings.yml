@@ -73,7 +73,7 @@ footer_settings:
 
 social_settings:
   # facebook_url: 'https://www.facebook.com/jekyllthemes/'
-  twitter_url: 'https://twitter.com/AzizaS'
+  twitter_url: ''
   # instagram_url: 'https://twitter.com/jekyllthemesio'
   youtube_url: ''
   vimeo_url: ''
@@ -81,7 +81,7 @@ social_settings:
   tumblr_url: ''
   dribbble_url: ''
   behance_url: ''
-  github_url: 'https://github.com/AzizaSuleyman'
+  github_url: ''
   reddit_url: ''
   linkedin_url: ''
 

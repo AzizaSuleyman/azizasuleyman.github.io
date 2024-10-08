@@ -1,11 +1,20 @@
 ---
-title: The latest news from the lab
+title: 
 subtitle: 
 featured_image: assets/img/ill/GoldenGateBridge.jpg
 
 ---
 
-Stay tuned with the latest updates from our new lab.
+
+<div class="row">
+        <div class="col-md-8 mx-auto text-center mb-5">
+          <!-- <h3 class="display-3">Publications </h3> -->
+          <p class="lead">Stay tuned with the latest updates from our new lab.
+</p>
+        </div>
+</div>
+
+
 
 ---
 
