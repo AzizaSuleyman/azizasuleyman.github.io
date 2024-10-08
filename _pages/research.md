@@ -8,9 +8,10 @@ featured_image: /assets/img/ill/GoldenGateBridge.jpg
 <!-- ## Scientific directions -->
 <div class="row">
         <div class="col-md-8 mx-auto text-center mb-5">
-          <p class="lead"> Our interests </p>
+          <p class="lead"> Our science </p>
         </div>
 </div>
+
 
 The ability to generate and harness large-scale entanglement is key to unlocking full potential of quantum technology and science. To access this potential we need quantum systems designed and built to interface with each other and the outside world through quantum and classical channels.
 
@@ -81,16 +82,34 @@ Interfacing different quantum platforms and distributing entanglement over long 
 To send and receive the flying qubits without losing the stored information, our platforms must be able to efficiently transduce the quantum information from the photonic mode onto the matter qubits. Quantum transduction is an extremely fragile process, since we cannot clone or copy quantum information. The process of swapping quantum information from one physical system to another has to be protected from loss and noise. This is the ultimate challenge for interfacing quantum systems, one which we tackle both from a fundamental science perspective and engineering creativity.
 
 ## Platforms
-
 In our group we work with many different quantum platforms since our goal is to get them talking to each other! 
-Some of the systems we are working on right now:
+Some of the systems we are working on right now or have worked on in the past are:
 
 1. Trapped neutral atoms
 2. High-frequency superconducting circuits
-
-Platforms we liked in the past:
-
 3. Silicon vacancy (SiV) defects in dimond nanophotonic cavities
+
+
+<div class="row">
+    <div class="col-lg-5 col-md-6 mx-auto">
+        <div class="card" style="padding: 5px;" data-background="full">
+            <img class="card-img-top" src="/assets/img/pages/CircuitsMmwave.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title"> Superconducting circuits and neutral atoms </h4>
+                <p class="card-text"> Millimeter-wave superconducting circuits is a promising platform for quantum computing. The higher frequency of devices and ability to operate at high temperatures hold potential for interfacing with neutral trapped atoms which have mm-wave transitions between their Rydberg states. </p>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-5 col-md-6 mx-auto">
+            <div class="card" style="padding: 5px;" data-background="full">
+                <img class="card-img-top" src="/assets/img/pages/Atomsin3Dcavities.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title"> Superconducting arrays of cavities coupled to neutral atoms </h4>
+                    <p class="card-text"> Superconducting 3D cavities with sub-wavelength mode volumes have extremaly long coherence times and high mode confinement. With arrays of cavities designed in the mm-wave range we are building multi-qubit registers with trapped atoms based on Jaynes-Cumming Hamiltonian. </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 ## Animations
 
