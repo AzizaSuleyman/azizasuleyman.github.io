@@ -1,45 +1,57 @@
-  site: SuleymanzadeLab
+# Site settings
+site: SuleymanzadeLab
+title: SuleymanzadeLab
+description: Your site description # Add a description here
+url: https://azizasuleyman.github.io/
+baseurl: ""
 
-  url: https://azizasuleyman.github.io/
-  baseurl:
+# GitHub Metadata settings
+repository: azizasuleyman/azizasuleyman.github.io
 
-  collections:
-    pages:
-      output: true
-      permalink: /:name
-    posts:
-      output: true
-      permalink: /blog/:slug
-      type: "post"
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+    type: "post"
 
-  defaults:
-    -
-      scope:
-        path: ""
-      values:
-        layout: "default"
-    -
-      scope:
-        path: ""
-        type: "pages"
-      values:
-        layout: "default"
-    -
-      scope:
-        path: ""
-        type: "posts"
-      values:
-        layout: "post" 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post" 
 
-  sass:
-    sass_dir: assets/styles
-    style: compressed
-    sourcemap: never
+# Sass settings
+sass:
+  sass_dir: assets/styles
+  style: compressed
+  sourcemap: never
 
-  plugins:
-    - jekyll-paginate
-    - jekyll-sitemap
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-  paginate: 6
-  paginate_path: "/blog/page:num/"
-    
+# Pagination
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+# Build settings
+markdown: kramdown
