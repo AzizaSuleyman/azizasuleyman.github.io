@@ -2,21 +2,37 @@ name: Build and Deploy Jekyll Site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]  # Change this to your default branch
   workflow_dispatch:
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
+      PAGES_REPO_NWO: azizasuleyman/azizasuleyman.github.io
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Update Bundler
+        run: |
+          gem update --system
+          gem install bundler
+
+      - name: Clean and Install Dependencies
+        run: |
+          rm -rf vendor
+          rm -f Gemfile.lock
+          bundle install
 
       - name: Build Site with Jekyll
         run: bundle exec jekyll build
