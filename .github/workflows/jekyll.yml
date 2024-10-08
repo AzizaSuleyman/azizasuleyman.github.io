@@ -16,13 +16,14 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
+          bundler-cache: false  # Disable bundler caching
 
       - name: Update Bundler
         run: gem install bundler
 
       - name: Bundle Install
         run: |
-          bundle config set --local path 'vendor/bundle'
+          bundle config set --local deployment 'false'
           bundle install
 
       - name: Update Gemfile.lock
