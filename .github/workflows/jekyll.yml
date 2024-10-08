@@ -29,9 +29,7 @@ jobs:
           bundler-cache: true
 
       - name: Install Dependencies
-        run: |
-          echo "gem 'rexml'" >> Gemfile
-          bundle install
+        run: bundle install
 
       - name: Setup Pages
         id: pages
