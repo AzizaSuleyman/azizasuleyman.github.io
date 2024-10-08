@@ -19,21 +19,15 @@ jobs:
           bundler-cache: false
 
       - name: Update Bundler
-        run: gem install bundler
-
-      - name: Update Gems and Gemfile.lock
         run: |
+          gem update --system
+          gem install bundler
+
+      - name: Clean and Install Dependencies
+        run: |
+          rm -rf vendor
           rm -f Gemfile.lock
           bundle install
-          bundle update
-
-      - name: Commit updated Gemfile.lock
-        run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add Gemfile.lock
-          git commit -m "Update Gemfile.lock" || echo "No changes to commit"
-          git push
 
       - name: Build Site with Jekyll
         run: bundle exec jekyll build
