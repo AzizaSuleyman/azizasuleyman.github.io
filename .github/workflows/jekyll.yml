@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       JEKYLL_ENV: production
-      PAGES_REPO_NWO: azizasuleyman.github.io
+      PAGES_REPO_NWO: azizasuleyman/azizasuleyman.github.io
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
