@@ -1,45 +1,45 @@
-site: SuleymanzadeLab
+  site: SuleymanzadeLab
 
-url: https://azizasuleyman.github.io/
-baseurl:
+  url: https://azizasuleyman.github.io/
+  baseurl:
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
-    type: "post"
+  collections:
+    pages:
+      output: true
+      permalink: /:name
+    posts:
+      output: true
+      permalink: /blog/:slug
+      type: "post"
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post" 
+  defaults:
+    -
+      scope:
+        path: ""
+      values:
+        layout: "default"
+    -
+      scope:
+        path: ""
+        type: "pages"
+      values:
+        layout: "default"
+    -
+      scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post" 
 
-sass:
-  sass_dir: assets/styles
-  style: compressed
-  sourcemap: never
+  sass:
+    sass_dir: assets/styles
+    style: compressed
+    sourcemap: never
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
 
-paginate: 6
-paginate_path: "/blog/page:num/"
-  
+  paginate: 6
+  paginate_path: "/blog/page:num/"
+    
