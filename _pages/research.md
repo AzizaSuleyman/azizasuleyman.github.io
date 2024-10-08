@@ -83,12 +83,7 @@ To send and receive the flying qubits without losing the stored information, our
 
 ## Platforms
 In our group we work with many different quantum platforms since our goal is to get them talking to each other! 
-Some of the systems we are working on right now or have worked on in the past are:
-
-1. Trapped neutral atoms
-2. High-frequency superconducting circuits
-3. Silicon vacancy (SiV) defects in dimond nanophotonic cavities
-
+Some of the systems we are working on right now are trapped neutral atoms and high-frequency superconducting circuits. In the past we have worked on Silicon vacancy (SiV) defects in dimond nanophotonic cavities.
 
 <div class="row">
     <div class="col-lg-5 col-md-6 mx-auto">
