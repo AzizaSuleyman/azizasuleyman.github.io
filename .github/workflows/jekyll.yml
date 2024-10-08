@@ -1,23 +1,48 @@
-- name: Setup Ruby
-     uses: ruby/setup-ruby@v1
-     with:
-       ruby-version: '3.1'
+name: Build and Deploy Jekyll Site to GitHub Pages
 
-   - name: Update Bundler
-     run: gem install bundler
+on:
+  push:
+    branches: ["main"]  # Change this to your default branch
+  workflow_dispatch:
 
-   - name: Bundle Install
-     run: |
-       bundle config set --local path 'vendor/bundle'
-       bundle install
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-   - name: Update Gemfile.lock
-     run: bundle lock --update
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
 
-   - name: Commit updated Gemfile.lock
-     run: |
-       git config --global user.name 'GitHub Action'
-       git config --global user.email 'action@github.com'
-       git add Gemfile.lock
-       git commit -m "Update Gemfile.lock" || echo "No changes to commit"
-       git push
+      - name: Update Bundler
+        run: gem install bundler
+
+      - name: Bundle Install
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+
+      - name: Update Gemfile.lock
+        run: bundle lock --update
+
+      - name: Commit updated Gemfile.lock
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add Gemfile.lock
+          git commit -m "Update Gemfile.lock" || echo "No changes to commit"
+          git push
+
+      - name: Build Site with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
