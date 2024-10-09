@@ -2,7 +2,7 @@
 title: Lab News
 subtitle: 
 layout:
-featured_image: assets/img/ill/Sather_Gate.jpeg
+featured_image: assets/img/ill/GoldenGateBridge.jpg
 
 ---
 
