@@ -1,7 +1,7 @@
 site: SuleymanzadeLab
 
 url: https://azizasuleyman.github.io
-baseurl: /_site
+baseurl:
 
 collections:
   pages:
