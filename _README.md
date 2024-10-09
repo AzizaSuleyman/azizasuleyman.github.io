@@ -141,7 +141,7 @@ If you want to add some pre-made sections, such as a pricing table, carousel of 
 
 #### Modify components with your content
 
-If you want to modify these components, we recommend the workflow below:
+If you want to modify components, we recommend the workflow below:
 
 1. Find the component you like in `_includes/component`
 2. Duplicate it and rename it
