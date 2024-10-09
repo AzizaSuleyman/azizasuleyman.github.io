@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/about</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//about</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog-grid-example</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//blog-grid-example</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog-narrow-example</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//blog-narrow-example</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/contact</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//contact</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/features</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//features</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/news</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//news</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/people</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//people</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/people-old</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//people-old</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/pricing</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//pricing</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/pubs</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//pubs</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/research</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//research</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/thanks</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//thanks</loc>
 <lastmod>2024-10-08T20:36:47-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/our-new-home</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//blog/our-new-home</loc>
 <lastmod>2024-09-01T20:00:01-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/lab-renovations-begin</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//blog/lab-renovations-begin</loc>
 <lastmod>2024-10-05T20:00:01-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/500.html</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//500.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog/</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/img/logo_black.pdf</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//assets/img/logo_black.pdf</loc>
 <lastmod>2024-10-07T20:31:33-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/assets/pdfs/CV_AS.pdf</loc>
+<loc>http://{{ site.url }}{{ site.baseurl }}//assets/pdfs/CV_AS.pdf</loc>
 <lastmod>2024-10-08T19:44:12-04:00</lastmod>
 </url>
 </urlset>
