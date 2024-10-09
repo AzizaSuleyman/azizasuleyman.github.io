@@ -176,7 +176,7 @@ $shapes-dark-colors: map-merge((
 
 
 // Translucent color variations
-$translucent-color-opacity: .6;
+$translucent-color-opacity: 0;
 
 // Set a specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
@@ -219,6 +219,7 @@ $section-colors: map-merge((
 
 $link-color:                $primary !default;
 $link-decoration:           none !default;
+
 $link-hover-color:          darken($link-color, 15%);
 $link-hover-decoration:     none !default;
 
