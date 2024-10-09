@@ -2,7 +2,7 @@
 title: Lab planning begins
 date: 2024-10-06 00:00:01
 description: Starting from the drawings
-featured_image: /assets/img/NewsContent/2024-10-06/Combined.png
+featured_image: /assets/img/NewsContent/2024-10-06/Combined.PNG
 author: Aziza
 ---
 
