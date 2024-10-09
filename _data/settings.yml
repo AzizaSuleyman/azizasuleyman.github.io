@@ -36,13 +36,13 @@ menu_settings:
     # - title: '1'
     #   url: '/1'     
     - title: People
-      url: /People       
+      url: /people       
     - title: 'Lab News!'
-      url: /News
+      url: /news
     - title: 'Publications'
-      url: /Pubs
+      url: /pubs
     - title: 'Research'
-      url: /Research
+      url: /research
       # icon: ni-bullet-list-67 text-default    
       # submenu_items:
       # - title: Blog
