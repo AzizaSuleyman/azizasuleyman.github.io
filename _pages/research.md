@@ -16,7 +16,7 @@ featured_image: /assets/img/ill/GoldenGateBridge.jpg
 The ability to generate and harness large-scale entanglement is key to unlocking full potential of quantum technology and science. To access this potential we need quantum systems designed and built to interface with each other and the outside world through quantum and classical channels.
 
 
-<img src="/assets/img/pages/ApplicationsNetworks.png" alt="Description of image" />
+<img src="/assets/img/pages/ApplicationsNetworks.png" alt="Description of image" style="display: block; margin: 0 auto;" />
 
 ---
 
@@ -88,7 +88,7 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
 <div class="row">
     <div class="col-lg-5 col-md-6 mx-auto">
         <div class="card" style="padding: 5px;" data-background="full">
-            <img class="card-img-top" src="/assets/img/pages/CircuitsMmwave.png" alt="Card image cap">
+            <img class="card-img-top" src="/assets/img/pages/CircuitsMmwave1.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title"> Superconducting circuits and neutral atoms </h4>
                 <p class="card-text"> Millimeter-wave superconducting circuits is a promising platform for quantum computing. The higher frequency of devices and ability to operate at high temperatures hold potential for interfacing with neutral trapped atoms which have mm-wave transitions between their Rydberg states. </p>
