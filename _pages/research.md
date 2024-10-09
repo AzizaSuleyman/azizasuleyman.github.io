@@ -74,7 +74,7 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
 
 <div class="row">
         <div class="col-md-8 mx-auto text-center mb-5">
-          <p class="lead"> Some animations related to our work. More to come soon.. </p>
+          <p class="lead"> Some animations related to our work. More to come soon... </p>
         </div>
 </div>
 
