@@ -48,9 +48,9 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
                 <h4 class="card-title"> Superconducting circuits and neutral atoms </h4>
                 <p class="card-text"> Millimeter-wave superconducting circuits is a promising platform for quantum computing. The higher frequency of devices and ability to operate at high temperatures hold potential for interfacing with neutral trapped atoms which have mm-wave transitions between their Rydberg states. </p>
             </div>
+          </div>
         </div>
-        </div>
-        <div class="col-lg-5 col-md-6 mx-auto">
+    <div class="col-lg-5 col-md-6 mx-auto">
             <div class="card" style="padding: 5px;" data-background="full">
                 <img class="card-img-top" src="/assets/img/pages/Atomsin3Dcavities.png" alt="Card image cap">
                 <div class="card-body">
@@ -58,8 +58,17 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
                     <p class="card-text"> Superconducting 3D cavities with sub-wavelength mode volumes have extremaly long coherence times and high mode confinement. With arrays of cavities designed in the mm-wave range we are building multi-qubit registers with trapped atoms based on Jaynes-Cumming Hamiltonian. </p>
                 </div>
             </div>
-        </div>
-    </div>
+      </div>
+    <div class="col-lg-5 col-md-6 mx-auto">
+          <div class="card" style="padding: 5px;" data-background="full">
+              <img class="card-img-top" src="/assets/img/pages/AtomCavityArray.png" alt="Card image cap">
+              <div class="card-body">
+                  <h4 class="card-title"> Atom arrays coupled to optical cavities </h4>
+                  <p class="card-text"> Reconfigurable arrays of atoms coupled to optical cavities have the potential to enable complex quantum computational applications with a remote, efficient optical interface. We are exploring novel approaches to enhance light-matter coupling, aiming to improve the rates and fidelities of entanglement generation within this platform. </p>
+              </div>
+          </div>
+      </div>
+  </div>
 
 ## Animations
 
