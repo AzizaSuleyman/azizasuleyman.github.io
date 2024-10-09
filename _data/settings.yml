@@ -33,6 +33,8 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: /
+    - title: 'Research'
+      url: /research
     # - title: '1'
     #   url: '/1'     
     - title: People
@@ -41,8 +43,7 @@ menu_settings:
       url: /news
     - title: 'Publications'
       url: /pubs
-    - title: 'Research'
-      url: /research
+    
       # icon: ni-bullet-list-67 text-default    
       # submenu_items:
       # - title: Blog
