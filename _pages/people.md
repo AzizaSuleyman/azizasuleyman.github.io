@@ -2,6 +2,7 @@
 title: Our team
 # Meet our awesome team
 # subtitle: The magic behind the science
+description: Group members
 featured_image: assets/img/ill/GoldenGateBridge.jpg
 ---
 
