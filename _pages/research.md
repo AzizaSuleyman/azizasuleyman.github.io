@@ -2,7 +2,7 @@
 title: Research
 subtitle: 
 description: An overview of research topics we are currently pursuing
-featured_image: /assets/img/ill/Sather_Gate.jpeg
+featured_image: /assets/img/ill/Berkeley.jpg
 ---
 
 <!-- ## Scientific directions -->
