@@ -98,6 +98,14 @@ authors:
   #   picture: /assets/img/faces/michael.jpg
 
 advanced_settings:
-  analytics_code: G-EBTPFNWT25
+  analytics_code:
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBTPFNWT25"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EBTPFNWT25');
+    </script>
   header_js: 
   footer_js: 
