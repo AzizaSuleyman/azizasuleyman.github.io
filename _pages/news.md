@@ -21,7 +21,7 @@ featured_image: assets/img/ill/Berkeley.jpg
 ---
 
 
- {% include components/blog/narrow.html %}  
+ {% include components/blog/thread.html %}  
 
 
 
