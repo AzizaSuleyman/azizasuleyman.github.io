@@ -4,6 +4,8 @@ layout: default
 description: Suleymanzade lab at UC Berkeley
 featured_image: /assets/img/pages/HybridFull.png
 ---
+{% if site.data.settings.home_settings.theme == "landing" %}
+{% include home-lab.html %}
 
 {% include components/teams/pubs-carousel.html %}
 
