@@ -1,0 +1,5 @@
+.card-avatar {
+  max-width: 200px !important;
+  max-height: 200px !important;
+  margin-top: 0px !important;   /* push the name down */
+}

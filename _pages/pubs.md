@@ -7,6 +7,9 @@ featured_image: /assets/img/pages/HybridFull.png
 
 {% include components/teams/pubs-carousel.html %}
 
+* Baranes, G., Wang, I. W., Machado, F., Suleymanzade, A., Stas, P.-J., Wei, Y.-C., … & Lukin, M. D. (2025)*. **Designing Fault-Tolerant Blind Quantum Computation** [Arxiv](https://arxiv.org/abs/2505.21621)
+
+* Wei, Y.-C., Stas, P.-J., Suleymanzade, A., Baranes, G., Machado, F., Huan, Y. Q., … & Lukin, M. D. (2025)*. **Universal distributed blind quantum computing with solid-state qubits** [Science](https://www.science.org/doi/10.1126/science.adu6894), 388(6746), 509–513. [Arxiv](https://arxiv.org/pdf/2412.03020)
 
 * Knaut, C. M., Suleymanzade, A., Wei, Y. C., Assumpcao, D. R., Stas, P. J., Huan, Y. Q., ... & Lukin, M. D. *(2024)*. **Entanglement of nanophotonic quantum memory nodes in a telecom network.** [Nature](https://www.nature.com/articles/s41586-024-07252-z/), 629(8012), 573-578. [Arxiv](https://arxiv.org/abs/2310.01316/)
 
