@@ -265,67 +265,102 @@
   </div>
 </div>
 
+<!-- ============ Lab News Timeline ============ -->
+<style>
+/* — minimal page-local CSS, safe to keep here — */
+ul.lab-timeline         {list-style:none; margin:0; padding-left:40px; position:relative;}
+ul.lab-timeline::before {content:""; position:absolute; left:18px; top:0; width:2px; height:100%;
+                         background:#c9ccd0;}            /* vertical gray line */
 
+ul.lab-timeline li      {margin:0 0 32px 0; position:relative;}
+ul.lab-timeline li::before {content:""; position:absolute; left:-28px; top:2px;
+                            width:16px; height:16px; border:2px solid #c9ccd0;
+                            border-radius:50%; background:#fff;}       /* circle */
 
+ul.lab-timeline h6      {font-weight:700; margin-bottom:6px;}         /* bold date */
+ul.lab-timeline p       {margin:0;}                                    /* tight body */
+@media (max-width:576px){ul.lab-timeline {padding-left:28px;}
+                         ul.lab-timeline::before{left:12px;}
+                         ul.lab-timeline li::before{left:-20px;}}
+</style>
 
-    <section class="blogs-1">
-    <div class="container">
-        
-        
-        <div class="row align-items-center">
-            
-            <div class="col-lg-6">
-                <div class="card card-blog card-background" data-animation="zooming">
-                    <div class="full-background" style="background-image: url(/assets/img/NewsContent/2024-09-02/bluefors_blog.png)"></div>
-                    <a href="/blog/bluforsblog">
-                        <div class="card-body">
-                            <div class="content-bottom">
-                                <h6 class="card-category text-white opacity-8">06 March 2025
-                                </h6>
-                                <h5 class="card-title">Coverage in Bluefors Blog!</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+<div class="row">
+  <div class="col-lg-8 col-md-10 mx-auto">
+    <h2 class="mb-4">News</h2>
+
+    <ul class="lab-timeline">
+
+      
+      <li>
+        <h6>01 July 2025</h6>
+        <p>
+         Ankit Muppala (Sophomore at UC Berkeley) joins Suleymanzade lab as an Undergraduate researcher.
+         <div class="col-lg-4 col-md-4 justify-content-center">
+              <img src="/assets/img/faces/Photini.png" alt="GO BEARS!" class="positioned-image">
+         </div>
+        </p>
+      </li>
+      <li>
+        <h6>March 2025</h6>
+        <p>
+         We are mentioned in Bluefors blog: "Inspiring the Next Generation: 
+         Stories of Women in Physics" together with two amazing scientists in quantum: 
+         <a href="https://zhang.apam.columbia.edu/" target="_blank">Prof. Xueyue (Sherry) Zhang </a> 
+         from Columbia and <a href="https://evevavagiakis.com/" target="_blank">Prof. Eve Vavagiakis </a> from Duke University.
+         <a href="https://bluefors.com/stories/inspiring-the-next-generation-stories-of-women-in-physics/" 
+         target="_blank">Read the entire story</a>
+         <div class="col-lg-6 col-md-4 justify-content-center">
+              <img src="/assets/img/NewsContent/2025-03-07/Bluefors.png" alt="Bluefors" class="positioned-image">
             </div>
-            
-            <div class="col-lg-3">
-                <div class="card card-blog card-background" data-animation="zooming">
-                    <div class="full-background" style="background-image: url(/assets/img/NewsContent/2024-10-06/Combined.PNG)"></div>
-                    <a href="/blog/lab-renovations-begin">
-                        <div class="card-body">
-                            <div class="content-bottom">
-                                <h6 class="card-category text-white opacity-8">05 October 2024
-                                </h6>
-                                <h5 class="card-title">Lab planning begins</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+        </p>
+      </li>
+
+      <li>
+        <h6> November 2024</h6>
+        <p>
+         Aziza receives <b>2024 Boeing Quantum Creators Prize </b> for her work on quantum networking 
+         with neutral atoms, solid-state defects and photons. 
+         <a href="https://chicagoquantum.org/education-and-training/2024-boeing-quantum-creators-prize-winners" 
+         target="_blank">Read the entire story</a>
+        </p>
+      </li>
+
+      <li>
+        <h6>October 2024</h6>
+        <p> 
+          The planning of the labs begins with the floorplans, layout, and performance requirements—HVAC, 
+          power, vibrations, magnetic fields, and more. It's an exciting and critical part of the process. 
+            <div class="col-lg-4 col-md-4 justify-content-center">
+              <img src="/assets/img/NewsContent/2024-10-06/Combined.PNG" alt="GO BEARS!" class="positioned-image">
             </div>
-            
-            <div class="col-lg-3">
-                <div class="card card-blog card-background" data-animation="zooming">
-                    <div class="full-background" style="background-image: url(/assets/img/NewsContent/2024-09-02/BirgeHallGoogleMaps.png)"></div>
-                    <a href="/blog/our-new-home">
-                        <div class="card-body">
-                            <div class="content-bottom">
-                                <h6 class="card-category text-white opacity-8">01 September 2024
-                                </h6>
-                                <h5 class="card-title">Hello, world</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+        </p> 
+      </li>
+
+      <li>
+        <h6>02 September 2024</h6>
+        <p> 
+          UC Berkeley hires <b> four new faculty members </b> in experimental quantum physics. What an exciting time to do 
+          Quantum research at Berkeley!
+             <a href="https://news.berkeley.edu/2024/08/01/four-new-faculty-hires-are-a-quantum-leap-for-experimental-physics/" 
+         target="_blank">Read the entire story</a>
+        </p> 
+      </li>
+
+      <li>
+        <h6>01 September 2024</h6>
+        <p> 
+          It is official: Suleymanzade Lab will be starting up in the Physics Department at UC Berkeley
+          in July 2025. `GO BEARS!` We will be dwelling in the basement of Birge Hall, far away 
+          from stray light, to protect our precious photons.
+            <div class="col-lg-4 col-md-4 justify-content-center">
+              <img src="/assets/img/NewsContent/2024-09-02/Cal_logo.png" alt="GO BEARS!" class="positioned-image">
             </div>
-            
-            
-        </div>
-    </div>
-</section>  
+        </p> 
+      </li>
 
 
-
+    </ul>
+  </div>
 
     </div>
   </div>
