@@ -8,9 +8,6 @@ banner_size: small
 
 ---
 
-
-
-
  {% include components/news-timeline.html %}  
 
 
