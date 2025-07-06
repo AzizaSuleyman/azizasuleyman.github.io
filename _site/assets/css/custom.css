@@ -3,3 +3,11 @@
   max-height: 200px !important;
   margin-top: 0px !important;   /* push the name down */
 }
+
+.page-header.page-header-small.header-filter,
+.page-header-image {          /* background container */
+  min-height: 45vh !important;  /* Argon sets 75–100vh */
+  height: 45vh !important;      /* ensure exact height */
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
