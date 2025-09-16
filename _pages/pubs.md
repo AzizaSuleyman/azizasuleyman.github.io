@@ -7,7 +7,7 @@ featured_image: /assets/img/pages/HybridFull.png
 
 {% include components/teams/pubs-carousel.html %}
 
-* Yada, T., Stas, P.-J., Suleymanzade, A., Knall, E. N., Yoshioka, N., Sagawa, T., … & Lukin, M. D. (2025)*. **Experimentally Probing Entropy Reduction via Iterative Quantum Information Transfer** [PRX](https://journals.aps.org/prx/abstract/10.1103/5lp2-9sps)[Arxiv](https://arxiv.org/abs/2411.06709)
+* Yada, T., Stas, P.-J., Suleymanzade, A., Knall, E. N., Yoshioka, N., Sagawa, T., … & Lukin, M. D. (2025)*. **Experimentally Probing Entropy Reduction via Iterative Quantum Information Transfer** [PRX](https://journals.aps.org/prx/abstract/10.1103/5lp2-9sps) 15, 031054. [Arxiv](https://arxiv.org/abs/2411.06709)
 
 * Baranes, G., Wang, I. W., Machado, F., Suleymanzade, A., Stas, P.-J., Wei, Y.-C., … & Lukin, M. D. (2025)*. **Designing Fault-Tolerant Blind Quantum Computation** [Arxiv](https://arxiv.org/abs/2505.21621)
 
