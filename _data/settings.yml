@@ -43,6 +43,8 @@ menu_settings:
       url: /news
     - title: 'Publications'
       url: /pubs
+    - title: 'Gallery'
+      url: /gallery
     
       # icon: ni-bullet-list-67 text-default    
       # submenu_items:
