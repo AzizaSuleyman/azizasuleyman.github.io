@@ -22,18 +22,18 @@ description: Life in pictures
 
 <div class="row g-3">
   <div class="col-6 col-md-4 col-lg-5">
-      <a href="/assets/img/Gallery/hiking5.jpg" target="_blank">
-        <img src="/assets/img/Gallery/hiking5.jpg" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
+      <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
+        <img src="/assets/img/Gallery/hiking5.JPG" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
       </a>
   </div>
   <div class="col-6 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/hiking2.jpg" target="_blank">
-      <img src="/assets/img/Gallery/hiking2.jpg" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
+    <a href="/assets/img/Gallery/hiking2.JPG" target="_blank">
+      <img src="/assets/img/Gallery/hiking2.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
     </a>
   </div>
   <div class="col-6 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/hiking4.jpg" target="_blank">
-      <img src="/assets/img/Gallery/hiking4.jpg" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
+    <a href="/assets/img/Gallery/hiking4.JPG" target="_blank">
+      <img src="/assets/img/Gallery/hiking4.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
     </a>
   </div>
 </div>
