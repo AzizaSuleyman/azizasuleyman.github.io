@@ -13,8 +13,6 @@ featured_image: /assets/img/pages/HybridFull.png
 
 * Wei, Y.-C., Stas, P.-J., Suleymanzade, A., Baranes, G., Machado, F., Huan, Y. Q., … & Lukin, M. D. (2025)*. **Universal distributed blind quantum computing with solid-state qubits** [Science](https://www.science.org/doi/10.1126/science.adu6894), 388(6746), 509–513. [Arxiv](https://arxiv.org/pdf/2412.03020)
 
-* Knaut, C. M., Suleymanzade, A., Wei, Y. C., Assumpcao, D. R., Stas, P. J., Huan, Y. Q., ... & Lukin, M. D. *(2024)*. **Entanglement of nanophotonic quantum memory nodes in a telecom network.** [Nature](https://www.nature.com/articles/s41586-024-07252-z/), 629(8012), 573-578. [Arxiv](https://arxiv.org/abs/2310.01316/)
-
 * Bersin, E., Sutula, M., Huan, Y. Q., Suleymanzade, A., Assumpcao, D. R., Wei, Y.-C., Stas, P.-J., Knaut, C. M., Knall, E. N., Langrock, C., Sinclair, N., Murphy, R., & Lukin, M. D. *(2024)*. **Telecom networking with a diamond quantum memory**. [PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010303/), 5(1). [Arxiv](https://arxiv.org/abs/2307.08619/).
 
 * Kumar, A., Suleymanzade, A., Stone, M., Taneja, L., Anferov, A., Schuster, D. I., & Simon, J. *(2023)*. **Quantum-enabled millimeter wave to optical transduction using neutral atoms.** [Nature](https://www.nature.com/articles/s41586-023-05740-2/), 615(7953), 614-619. [Arxiv](https://arxiv.org/abs/2207.10121/)
