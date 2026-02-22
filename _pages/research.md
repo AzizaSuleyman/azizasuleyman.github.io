@@ -1,6 +1,6 @@
 ---
 title: Research
-subtitle: Aziza is the Robert J. Birgeneau Professor of Physics, an endowed chair.
+subtitle: 
 description: An overview of research topics we are currently pursuing
 featured_image: /assets/img/ill/Sather_Gate.jpeg
 ---
@@ -56,7 +56,7 @@ In our group we work with multiple platforms because the central challenge is ge
             </div>
           </div>
         </div>
-    <div class="col-lg-5 col-md-6 mx-auto">
+    <!-- <div class="col-lg-5 col-md-6 mx-auto">
             <div class="card" style="padding: 5px;" data-background="full">
                 <img class="card-img-top" src="/assets/img/pages/Atomsin3Dcavities.png" alt="Card image cap">
                 <div class="card-body">
@@ -66,7 +66,7 @@ In our group we work with multiple platforms because the central challenge is ge
                     </p>
                 </div>
             </div>
-      </div>
+      </div> -->
     <div class="col-lg-5 col-md-6 mx-auto">
           <div class="card" style="padding: 5px;" data-background="full">
               <img class="card-img-top" src="/assets/img/pages/AtomCavityArray.png" alt="Card image cap">
