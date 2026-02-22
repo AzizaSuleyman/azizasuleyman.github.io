@@ -1,6 +1,6 @@
 ---
 title: Research
-subtitle: 
+subtitle: Aziza is the Robert J. Birgeneau Professor of Physics, an endowed chair.
 description: An overview of research topics we are currently pursuing
 featured_image: /assets/img/ill/Sather_Gate.jpeg
 ---
@@ -12,9 +12,9 @@ featured_image: /assets/img/ill/Sather_Gate.jpeg
         </div>
 </div>
 
+Quantum technologies are moving from isolated demonstrations to systems that generate, process, and *route* quantum resources at scale. Our lab is dedicated to building **entanglement factories**: platforms that perform high-fidelity local quantum operations while also generating, distributing, and receiving entanglement through quantum input/output channels.
 
-The ability to generate and harness large-scale entanglement is key to unlocking full potential of quantum technology and science. To access this potential we need quantum systems designed and built to interface with each other and the outside world through quantum and classical channels.
-
+We pursue this goal in two complementary regimes: **short-distance entanglement factories** that interconnect heterogeneous modules within a machine, and **long-distance entanglement factories** that deliver deployable entanglement over fiber-scale links—enabling distributed quantum computing and long-baseline quantum sensing.
 
 <img src="/assets/img/pages/ApplicationsNetworks.png" alt="Future applications of distributed quantum systems" style="display: block; margin: 0 auto;" />
 
@@ -22,31 +22,37 @@ The ability to generate and harness large-scale entanglement is key to unlocking
 
 ## Tools
 
-**Entanglement**
+**Entanglement (as a routable resource)**
 
-In the last 100 years, entanglement has transformed from a paradox (1930s), to a phenomenon to be observed (1960s), and finally now to a resource to be harvested for powering quantum technology. At short distances, entanglement enables the unique powers of quantum computing. Distributed over large distances, entanglement creates even stranger and more exciting opportunities. In our lab, we find new ways of entangling diverse sets of quantum systems over more complex and distributed geometries to harness the nonlocal weirdness of this resource.
+Entanglement has evolved from a foundational paradox into a central resource for technology and discovery. In our work, entanglement is not just something to create and observe—it is something to **generate on demand, route with intent, and share across distance and hardware boundaries**, so that nonclassical correlations become a usable capability rather than a strictly local phenomenon.
 
+**Flying qubits (photons across bands)**
 
-**Flying qubits**
+Scaling quantum interconnects requires flying qubits that can transport quantum information between modules and across networks. Photons are the workhorse flying qubits, and we operate across regimes—from microwave and millimeter-wave to optical and telecom—choosing the carrier that best matches the interface physics and the target link (cryogenic module-to-module connections versus deployed fiber).
 
-Interfacing different quantum platforms and distributing entanglement over long distances requires access to flying qubits which can transfer quantum information from one place to another. The qubits that can practically fly the farthest are photons. We use all sorts of photons in our lab, from microwave (5–10 GHz) and millimeter wave (50–200 GHz) to optical (384 THz) and telecom (222 THz). Telecom photons are the most robust since they can travel via fibers at room temperature over 15 km before losing half of their population, as compared to optical photons which only have 700 m.
+**Quantum interfaces and transduction**
 
- 
-**Transduction**
+Moving quantum states between matter qubits and photonic channels is fundamentally fragile: quantum information cannot be copied, and interface loss/noise directly limits performance. We develop **coherent interfaces**—including transduction when necessary—so that quantum states can be transferred, stored, and processed while preserving fidelity and enabling scalable networking.
 
-To send and receive the flying qubits without losing the stored information, our platforms must be able to efficiently transduce the quantum information from the photonic mode onto the matter qubits. Quantum transduction is an extremely fragile process, since we cannot clone or copy quantum information. The process of swapping quantum information from one physical system to another has to be protected from loss and noise. This is the ultimate challenge for interfacing quantum systems, one which we tackle both from a fundamental science perspective and engineering creativity.
+---
 
 ## Platforms
-In our group we work with many different quantum platforms since our goal is to get them talking to each other! 
-Some of the systems we are working on right now are trapped neutral atoms and high-frequency superconducting circuits. In the past we have worked on Silicon vacancy (SiV) defects in dimond nanophotonic cavities.
+
+In our group we work with multiple platforms because the central challenge is getting fundamentally different quantum systems to *talk to each other*.
+
+**Thrust 1: Short-distance “quantum motherboard.”** We build architectures that link superconducting circuits and neutral-atom arrays inside a cryogenic environment, combining ultrafast control and measurement with long-lived, programmable memory.
+
+**Thrust 2: Long-distance entanglement factories.** We develop nanophotonic interfaces to neutral-atom arrays that generate atom–photon entanglement directly in the telecom band for distribution through deployed fiber networks, with robust atomic nodes for local storage and processing.
 
 <div class="row">
     <div class="col-lg-5 col-md-6 mx-auto">
         <div class="card" style="padding: 5px;" data-background="full">
             <img class="card-img-top" src="/assets/img/pages/CircuitsMmwave1.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title"> Superconducting circuits and neutral atoms </h4>
-                <p class="card-text"> Millimeter-wave superconducting circuits is a promising platform for quantum computing. The higher frequency of devices and ability to operate at high temperatures hold potential for interfacing with neutral trapped atoms which have mm-wave transitions between their Rydberg states. </p>
+                <h4 class="card-title"> Quantum motherboard: superconducting circuits + neutral atoms </h4>
+                <p class="card-text">
+                We integrate superconducting (transmon) processors with neutral-atom arrays via photonic interconnects, aiming for modular quantum machines that combine fast feedforward and measurement with long-lived, reconfigurable memory.
+                </p>
             </div>
           </div>
         </div>
@@ -54,8 +60,10 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
             <div class="card" style="padding: 5px;" data-background="full">
                 <img class="card-img-top" src="/assets/img/pages/Atomsin3Dcavities.png" alt="Card image cap">
                 <div class="card-body">
-                    <h4 class="card-title"> Superconducting arrays of cavities coupled to neutral atoms </h4>
-                    <p class="card-text"> Superconducting 3D cavities with sub-wavelength mode volumes have extremaly long coherence times and high mode confinement. With arrays of cavities designed in the mm-wave range we are building multi-qubit registers with trapped atoms based on Jaynes-Cumming Hamiltonian. </p>
+                    <h4 class="card-title"> Millimeter-wave links for modular quantum architectures </h4>
+                    <p class="card-text">
+                    We explore millimeter-wave photonic channels to connect heterogeneous cryogenic modules while allowing each subsystem to operate in its native optimum—enabling new regimes of hybrid processing and sensing.
+                    </p>
                 </div>
             </div>
       </div>
@@ -63,8 +71,10 @@ Some of the systems we are working on right now are trapped neutral atoms and hi
           <div class="card" style="padding: 5px;" data-background="full">
               <img class="card-img-top" src="/assets/img/pages/AtomCavityArray.png" alt="Card image cap">
               <div class="card-body">
-                  <h4 class="card-title"> Atom arrays coupled to optical cavities </h4>
-                  <p class="card-text"> Reconfigurable arrays of atoms coupled to optical cavities have the potential to enable complex quantum computational applications with a remote, efficient optical interface. We are exploring novel approaches to enhance light-matter coupling, aiming to improve the rates and fidelities of entanglement generation within this platform. </p>
+                  <h4 class="card-title"> Telecom atom–photon interfaces with nanophotonic cavities </h4>
+                  <p class="card-text">
+                  We develop cavity–array interfaces that generate high-rate atom–photon entanglement in the telecom band, distributing entanglement over deployed fiber while using neutral atoms as robust local quantum nodes for sensing and computation.
+                  </p>
               </div>
           </div>
       </div>
