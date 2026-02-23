@@ -44,7 +44,7 @@ In our group we work with multiple platforms because the central challenge is ge
 <div style="text-align:center; margin: 4.5rem 0;">
   <img src="/assets/img/pages/EntanglementFactories.png"
        alt="Entanglement factories: short-distance quantum motherboard and long-distance networked entanglement"
-       style="max-width: 60%; height: auto;" />
+       style="max-width: 90%; height: auto;" />
 </div>
 
 
