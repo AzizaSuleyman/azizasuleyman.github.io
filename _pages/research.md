@@ -1,30 +1,16 @@
 ---
-title: Research
+title: Our science
 subtitle: 
 description: An overview of research topics we are currently pursuing
 featured_image: /assets/img/ill/Sather_Gate.jpeg
 ---
 
 <!-- ## Scientific directions -->
-<div class="row">
-        <div class="col-md-8 mx-auto text-center mb-5">
-          <p class="lead"> Our science </p>
-        </div>
-</div>
 
 Quantum technologies are moving from isolated demonstrations to systems that generate, process, and *route* quantum resources at scale. Our lab is dedicated to building **entanglement factories**: platforms that perform high-fidelity local quantum operations while also generating, distributing, and receiving entanglement through quantum input/output channels.
 
 We pursue this goal in two complementary regimes: **short-distance entanglement factories** that interconnect heterogeneous modules within a machine, and **long-distance entanglement factories** that deliver deployable entanglement over fiber-scale links—enabling distributed quantum computing and long-baseline quantum sensing.
 
-<!-- Entanglement Factories figure (place image at assets/img/pages/EntanglementFactories.png) -->
-<div style="text-align:center; margin: 1.5rem 0;">
-  <img src="/assets/img/pages/EntanglementFactories.png"
-       alt="Entanglement factories: short-distance quantum motherboard and long-distance networked entanglement"
-       style="max-width: 92%; height: auto;" />
-  <p style="font-size: 0.95rem; margin-top: 0.6rem;">
-    <em>Entanglement factories in two regimes: a short-distance “quantum motherboard” for heterogeneous module interconnects, and long-distance entanglement distribution over fiber-scale links.</em>
-  </p>
-</div>
 
 <img src="/assets/img/pages/ApplicationsNetworks.png" alt="Future applications of distributed quantum systems" style="display: block; margin: 0 auto;" />
 
@@ -53,6 +39,14 @@ In our group we work with multiple platforms because the central challenge is ge
 **Thrust 1: Short-distance “quantum motherboard.”** We build architectures that link superconducting circuits and neutral-atom arrays inside a cryogenic environment, combining ultrafast control and measurement with long-lived, programmable memory.
 
 **Thrust 2: Long-distance entanglement factories.** We develop nanophotonic interfaces to neutral-atom arrays that generate atom–photon entanglement directly in the telecom band for distribution through deployed fiber networks, with robust atomic nodes for local storage and processing.
+
+<!-- Entanglement Factories figure (place image at assets/img/pages/EntanglementFactories.png) -->
+<div style="text-align:center; margin: 4.5rem 0;">
+  <img src="/assets/img/pages/EntanglementFactories.png"
+       alt="Entanglement factories: short-distance quantum motherboard and long-distance networked entanglement"
+       style="max-width: 60%; height: auto;" />
+</div>
+
 
 <div class="row">
     <div class="col-lg-5 col-md-6 mx-auto">
