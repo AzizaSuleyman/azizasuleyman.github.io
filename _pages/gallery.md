@@ -38,6 +38,16 @@ description: Life in pictures
   </div>
 </div>
 
+**Our custom optical dil fridge is here and now cold!**
+
+<div class="row g-3 mb-4">
+  <div class="col-lg-10 mx-auto">
+    <div class="video-16x9">
+      <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
 <!-- **Lab updates**
 
 <div class="row g-3">
