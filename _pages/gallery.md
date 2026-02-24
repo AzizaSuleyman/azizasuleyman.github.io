@@ -27,9 +27,9 @@ description: Life in pictures
   </div>
 </div>
 
-**Our custom optical dilfridge is here and now cold!**
+<p class="text-center"><strong>Our custom optical dilfridge is here and now cold!</strong></p>
 
-<div class="row g-3 align-items-center gallery-lab-row">
+<div class="row g-3 align-items-center gallery-lab-row mb-md-5">
   <div class="col-12 col-md-6 col-lg-6">
     <div class="video-16x9">
       <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
@@ -52,8 +52,7 @@ description: Life in pictures
  
 </div>
 
-**Hiking around campus**
-
+<p class="text-center"><strong>Hiking around campus</strong></p>
 
 <div class="row g-3 align-items-center gallery-lab-row">
   <div class="col-12 col-md-4 col-lg-5">
