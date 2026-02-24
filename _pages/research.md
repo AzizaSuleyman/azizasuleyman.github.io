@@ -66,7 +66,7 @@ In our group we work with multiple qubit platforms because the central challenge
 <div class="row">
   <div class="col-lg-5 col-md-6 mx-auto d-flex">
     <div class="card h-100" style="padding: 5px;" data-background="full">
-      <img class="card-img-top" src="/assets/img/pages/AtomTransmon.jpg" alt="Card image cap" style="height: 220px; object-fit: contain; background: white;">
+      <img class="card-img-top" src="/assets/img/pages/AtomTransmon.jpg" alt="Card image cap">
       <div class="card-body" style="padding-bottom: 0.75rem;">
         <h4 class="card-title"> Quantum motherboard: superconducting circuits + neutral atoms </h4>
         <p class="card-text">
@@ -78,7 +78,7 @@ In our group we work with multiple qubit platforms because the central challenge
 
   <div class="col-lg-5 col-md-6 mx-auto d-flex">
     <div class="card h-100" style="padding: 5px;" data-background="full">
-      <img class="card-img-top" src="/assets/img/pages/RoomTempExperiment.jpg" alt="Card image cap" style="height: 220px; object-fit: contain; background: white;">
+      <img class="card-img-top" src="/assets/img/pages/RoomTempExperiment.jpg" alt="Card image cap">
       <div class="card-body" style="padding-bottom: 0.75rem;">
         <h4 class="card-title"> Visible and telecom atom–photon interfaces with nanophotonic cavities </h4>
         <p class="card-text">
