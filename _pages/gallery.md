@@ -82,7 +82,7 @@ description: Life in pictures
 
 <div class="row">
   <div class="col-md-8 mx-auto text-center mb-5">
-    <p class="lead"> Science as animations </p>
+    <p class="lead"> Science in animations </p>
   </div>
 </div>
 
