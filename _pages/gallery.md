@@ -16,7 +16,7 @@ description: Life in pictures
   </div>
 </div>
 
-**Our custom optical dil fridge is here and now cold!**
+**Our custom optical dilfridge is here and now cold!**
 
 <div class="row g-3">
   <div class="col-12 col-md-6 col-lg-6">
@@ -24,20 +24,21 @@ description: Life in pictures
       <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
     </div>
   </div>
-  <!-- fridge picture 1
+
+  <!-- fridge picture 1 -->
   <div class="col-6 col-md-3 col-lg-3">
-    <a href="/assets/img/Gallery/FILENAME.jpg" target="_blank">
-      <img src="/assets/img/Gallery/FILENAME.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
+    <a href="/assets/img/Gallery/FridgeHana.jpg" target="_blank">
+      <img src="/assets/img/Gallery/FridgeHana.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
     </a>
   </div>
-  -->
-  <!-- fridge picture 2
+
+  <!-- fridge picture 2 -->
   <div class="col-6 col-md-3 col-lg-3">
-    <a href="/assets/img/Gallery/FILENAME.jpg" target="_blank">
-      <img src="/assets/img/Gallery/FILENAME.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
+    <a href="/assets/img/Gallery/FridgeMireya.jpg" target="_blank">
+      <img src="/assets/img/Gallery/FridgeMireya.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
     </a>
   </div>
-  -->
+ 
 </div>
 
 **Hiking around campus**
@@ -60,24 +61,6 @@ description: Life in pictures
     </a>
   </div>
 </div>
-
-
-
-<!-- **Lab updates**
-
-<div class="row g-3">
-  <div class="col-6 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/first_laser.jpg" target="_blank">
-      <img src="/assets/img/Gallery/first_laser.jpg" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
-    </a>
-  </div>
-  <div class="col-6 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/first_laser.jpg" target="_blank">
-      <img src="/assets/img/Gallery/first_laser.jpg" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
-    </a>
-  </div>
-</div> -->
----
 
 
 <div class="row">

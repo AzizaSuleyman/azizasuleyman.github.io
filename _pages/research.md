@@ -19,7 +19,17 @@ entanglement that can be generated on demand, routed with intent, and shared acr
 and hardware boundaries.
 
 
-<div style="text-align:center; margin: 4.5rem 0;">
+<style>
+@media (max-width: 767.98px) {
+  .entanglement-figure img {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+}
+</style>
+
+<div class="entanglement-figure" style="text-align:center; margin: 4.5rem 0;">
   <img src="/assets/img/pages/EntanglementFactories.png"
        alt="Entanglement factories: short-distance quantum motherboard and long-distance networked entanglement"
        style="max-width: 100%; height: auto;" />
@@ -78,6 +88,9 @@ In our group we work with multiple qubit platforms because the central challenge
     </div>
   </div>
 </div>
+
+---
+
 
 ## Tools
 
