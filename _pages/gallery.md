@@ -37,14 +37,14 @@ description: Life in pictures
   </div>
 
   <!-- fridge picture 1 -->
-  <div class="col-6 col-md-3 col-lg-3">
+  <div class="col-12 col-md-3 col-lg-3">
     <a href="/assets/img/Gallery/FridgeHana.jpg" target="_blank">
       <img src="/assets/img/Gallery/FridgeHana.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
     </a>
   </div>
 
   <!-- fridge picture 2 -->
-  <div class="col-6 col-md-3 col-lg-3">
+  <div class="col-12 col-md-3 col-lg-3">
     <a href="/assets/img/Gallery/FridgeMireya.jpg" target="_blank">
       <img src="/assets/img/Gallery/FridgeMireya.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
     </a>
@@ -56,17 +56,17 @@ description: Life in pictures
 
 
 <div class="row g-3 align-items-center gallery-lab-row">
-  <div class="col-6 col-md-4 col-lg-5">
+  <div class="col-12 col-md-4 col-lg-5">
       <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
         <img src="/assets/img/Gallery/hiking5.JPG" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
       </a>
   </div>
-  <div class="col-6 col-md-4 col-lg-3">
+  <div class="col-12 col-md-4 col-lg-3">
     <a href="/assets/img/Gallery/hiking2.JPG" target="_blank">
       <img src="/assets/img/Gallery/hiking2.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
     </a>
   </div>
-  <div class="col-6 col-md-4 col-lg-3">
+  <div class="col-12 col-md-4 col-lg-3">
     <a href="/assets/img/Gallery/hiking4.JPG" target="_blank">
       <img src="/assets/img/Gallery/hiking4.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
     </a>
