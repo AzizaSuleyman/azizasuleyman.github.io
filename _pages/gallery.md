@@ -16,6 +16,29 @@ description: Life in pictures
   </div>
 </div>
 
+**Our custom optical dil fridge is here and now cold!**
+
+<div class="row g-3">
+  <div class="col-12 col-md-6 col-lg-6">
+    <div class="video-16x9">
+      <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- fridge picture 1
+  <div class="col-6 col-md-3 col-lg-3">
+    <a href="/assets/img/Gallery/FILENAME.jpg" target="_blank">
+      <img src="/assets/img/Gallery/FILENAME.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
+    </a>
+  </div>
+  -->
+  <!-- fridge picture 2
+  <div class="col-6 col-md-3 col-lg-3">
+    <a href="/assets/img/Gallery/FILENAME.jpg" target="_blank">
+      <img src="/assets/img/Gallery/FILENAME.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
+    </a>
+  </div>
+  -->
+</div>
 
 **Hiking around campus**
 
@@ -38,15 +61,7 @@ description: Life in pictures
   </div>
 </div>
 
-**Our custom optical dil fridge is here and now cold!**
 
-<div class="row g-3 mb-4">
-  <div class="col-lg-10 mx-auto">
-    <div class="video-16x9">
-      <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
 
 <!-- **Lab updates**
 
