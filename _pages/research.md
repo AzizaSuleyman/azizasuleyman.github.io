@@ -41,6 +41,44 @@ interferometry, and searches for signatures of dark matter and gravity.
 
 ---
 
+
+## Our experimental efforts
+
+In our group we work with multiple qubit platforms because the central challenge is getting fundamentally different quantum systems to *talk to each other*. Some of the systems we are working on right now are trapped neutral atoms, superconducting circuits and nanophotonics. In the past we have also worked on Silicon vacancy (SiV) defects in diamond nanophotonic cavities.
+
+**Thrust 1: “quantum motherboard.”** We build architectures that link superconducting circuits and neutral-atom arrays inside a cryogenic environment, combining ultrafast control and measurement with long-lived, programmable memory.
+
+**Thrust 2: Long-distance entanglement factories.** We develop nanophotonic interfaces to neutral-atom arrays that generate atom–photon entanglement directly in the visible and telecom band for distribution through deployed fiber networks, with robust atomic nodes for local storage and processing.
+
+<!-- Entanglement Factories figure (place image at assets/img/pages/EntanglementFactories.png) -->
+
+
+<div class="row">
+  <div class="col-lg-5 col-md-6 mx-auto d-flex">
+    <div class="card h-100" style="padding: 5px;" data-background="full">
+      <img class="card-img-top" src="/assets/img/pages/AtomTransmon.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title"> Quantum motherboard: superconducting circuits + neutral atoms </h4>
+        <p class="card-text">
+          We integrate superconducting (transmon) processors with neutral-atom arrays via mmWave interconnects, aiming for modular quantum machines that combine fast feedforward and measurement with long-lived, reconfigurable memory. The atoms provide seconds-long coherence and reconfigurable connectivity, while the transmons supply microsecond-scale gate speeds and rapid readout—together forming a hybrid platform that surpasses either system alone.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-6 mx-auto d-flex">
+    <div class="card h-100" style="padding: 5px;" data-background="full">
+      <img class="card-img-top" src="/assets/img/pages/RoomTempExperiment.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title"> Visible and telecom atom–photon interfaces with nanophotonic cavities </h4>
+        <p class="card-text">
+          We develop nanophotonic cavity–array interfaces that generate <strong>high-rate atom–photon entanglement</strong>, linking <strong>visible</strong> atomic photons to the <strong>telecom band</strong> for scalable, low-loss entanglement distribution over fiber, while the atoms serve as robust local quantum nodes for sensing and computation.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 ## Tools
 
 **Entanglement (as a routable resource)**
@@ -49,57 +87,10 @@ Over the past century, entanglement has evolved from a conceptual paradox into a
 
 **Flying qubits (photons across bands)**
 
-Scaling quantum interconnects requires flying qubits that carry quantum information between modules and across networks. Photons are the workhorse flying qubits, and we operate across regimes—from microwave (5–10 GHz) and millimeter-wave (50–200 GHz) to optical (384 THz) and telecom (222 THz). Telecom photons are particularly robust for fiber links, traveling ~15 km at room temperature before losing half their intensity, compared with ~700 m for many optical wavelengths.
+Scaling quantum interconnects requires flying qubits that carry quantum information between modules and across networks. Photons are the workhorse flying qubits, and we operate across regimes—from microwave (1–10 GHz) and millimeter-wave (30–150 GHz) to optical (384 THz) and telecom (222 THz). Telecom photons are particularly robust for fiber links, traveling ~15 km at room temperature before losing half their intensity, compared with ~700 m for many optical wavelengths.
 
 **Quantum interfaces and transduction**
 
 Transferring quantum states between matter qubits and photonic channels is inherently fragile: quantum information cannot be copied, and loss or noise directly limits performance. We develop **coherent quantum interfaces**—including transduction when needed—to move states between platforms while preserving fidelity, enabling scalable networking and distributed architectures.
 
 ---
-
-## Platforms
-
-In our group we work with multiple platforms because the central challenge is getting fundamentally different quantum systems to *talk to each other*. Some of the systems we are working on right now are trapped neutral atoms and high-frequency superconducting circuits. In the past we have worked on Silicon vacancy (SiV) defects in diamond nanophotonic cavities.
-
-**Thrust 1: Short-distance “quantum motherboard.”** We build architectures that link superconducting circuits and neutral-atom arrays inside a cryogenic environment, combining ultrafast control and measurement with long-lived, programmable memory.
-
-**Thrust 2: Long-distance entanglement factories.** We develop nanophotonic interfaces to neutral-atom arrays that generate atom–photon entanglement directly in the telecom band for distribution through deployed fiber networks, with robust atomic nodes for local storage and processing.
-
-<!-- Entanglement Factories figure (place image at assets/img/pages/EntanglementFactories.png) -->
-
-
-<div class="row">
-    <div class="col-lg-5 col-md-6 mx-auto">
-        <div class="card" style="padding: 5px;" data-background="full">
-            <img class="card-img-top" src="/assets/img/pages/CircuitsMmwave1.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title"> Quantum motherboard: superconducting circuits + neutral atoms </h4>
-                <p class="card-text">
-                We integrate superconducting (transmon) processors with neutral-atom arrays via photonic interconnects, aiming for modular quantum machines that combine fast feedforward and measurement with long-lived, reconfigurable memory.
-                </p>
-            </div>
-          </div>
-        </div>
-    <!-- <div class="col-lg-5 col-md-6 mx-auto">
-            <div class="card" style="padding: 5px;" data-background="full">
-                <img class="card-img-top" src="/assets/img/pages/Atomsin3Dcavities.png" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title"> Millimeter-wave links for modular quantum architectures </h4>
-                    <p class="card-text">
-                    We explore millimeter-wave photonic channels to connect heterogeneous cryogenic modules while allowing each subsystem to operate in its native optimum—enabling new regimes of hybrid processing and sensing.
-                    </p>
-                </div>
-            </div>
-      </div> -->
-    <div class="col-lg-5 col-md-6 mx-auto">
-          <div class="card" style="padding: 5px;" data-background="full">
-              <img class="card-img-top" src="/assets/img/pages/AtomCavityArray.png" alt="Card image cap">
-              <div class="card-body">
-                  <h4 class="card-title"> Telecom atom–photon interfaces with nanophotonic cavities </h4>
-                  <p class="card-text">
-                  We develop cavity–array interfaces that generate high-rate atom–photon entanglement in the telecom band, distributing entanglement over deployed fiber while using neutral atoms as robust local quantum nodes for sensing and computation.
-                  </p>
-              </div>
-          </div>
-      </div>
-  </div>
