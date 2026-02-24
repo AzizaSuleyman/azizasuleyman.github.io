@@ -44,7 +44,7 @@ description: Life in pictures
 **Hiking around campus**
 
 
-<div class="row g-3">
+<div class="row g-3 align-items-center" style="padding-top: 2.5rem; padding-bottom: 2.5rem;">
   <div class="col-6 col-md-4 col-lg-5">
       <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
         <img src="/assets/img/Gallery/hiking5.JPG" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
