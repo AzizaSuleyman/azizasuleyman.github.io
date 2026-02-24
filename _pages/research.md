@@ -56,11 +56,11 @@ In our group we work with multiple qubit platforms because the central challenge
 <div class="row">
   <div class="col-lg-5 col-md-6 mx-auto d-flex">
     <div class="card h-100" style="padding: 5px;" data-background="full">
-      <img class="card-img-top" src="/assets/img/pages/AtomTransmon.jpg" alt="Card image cap">
-      <div class="card-body">
+      <img class="card-img-top" src="/assets/img/pages/AtomTransmon.jpg" alt="Card image cap" style="height: 210px; object-fit: cover;">
+      <div class="card-body" style="padding-bottom: 0.75rem;">
         <h4 class="card-title"> Quantum motherboard: superconducting circuits + neutral atoms </h4>
         <p class="card-text">
-          We integrate superconducting (transmon) processors with neutral-atom arrays via mmWave interconnects, aiming for modular quantum machines that combine fast feedforward and measurement with long-lived, reconfigurable memory. The atoms provide seconds-long coherence and reconfigurable connectivity, while the transmons supply microsecond-scale gate speeds and rapid readout—together forming a hybrid platform that surpasses either system alone.
+          We integrate superconducting (transmon) processors with neutral-atom arrays via mmWave interconnects, aiming for modular quantum machines that combine fast feedforward and measurement with long-lived, reconfigurable memory. The atoms provide seconds-long coherence and reconfigurable connectivity, while the transmons supply sub-microsecond-scale gate speeds and rapid readout—together forming a hybrid platform that surpasses either system alone.
         </p>
       </div>
     </div>
@@ -68,8 +68,8 @@ In our group we work with multiple qubit platforms because the central challenge
 
   <div class="col-lg-5 col-md-6 mx-auto d-flex">
     <div class="card h-100" style="padding: 5px;" data-background="full">
-      <img class="card-img-top" src="/assets/img/pages/RoomTempExperiment.jpg" alt="Card image cap">
-      <div class="card-body">
+      <img class="card-img-top" src="/assets/img/pages/RoomTempExperiment.jpg" alt="Card image cap" style="height: 210px; object-fit: cover;">
+      <div class="card-body" style="padding-bottom: 0.75rem;">
         <h4 class="card-title"> Visible and telecom atom–photon interfaces with nanophotonic cavities </h4>
         <p class="card-text">
           We develop nanophotonic cavity–array interfaces that generate <strong>high-rate atom–photon entanglement</strong>, linking <strong>visible</strong> atomic photons to the <strong>telecom band</strong> for scalable, low-loss entanglement distribution over fiber, while the atoms serve as robust local quantum nodes for sensing and computation.
@@ -87,7 +87,7 @@ Over the past century, entanglement has evolved from a conceptual paradox into a
 
 **Flying qubits (photons across bands)**
 
-Scaling quantum interconnects requires flying qubits that carry quantum information between modules and across networks. Photons are the workhorse flying qubits, and we operate across regimes—from microwave (1–10 GHz) and millimeter-wave (30–150 GHz) to optical (384 THz) and telecom (222 THz). Telecom photons are particularly robust for fiber links, traveling ~15 km at room temperature before losing half their intensity, compared with ~700 m for many optical wavelengths.
+Scaling quantum interconnects requires flying qubits that carry quantum information between modules and across networks. Photons are the workhorse flying qubits, and we operate across regimes—from microwave (1–10 GHz) and mmWave (30–150 GHz, higher-frequency microwave photons) to optical (384 THz) and telecom (222 THz). Telecom photons are particularly robust for fiber links, traveling ~15 km at room temperature before losing half their intensity, compared with ~700 m for many optical wavelengths.
 
 **Quantum interfaces and transduction**
 
