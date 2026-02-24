@@ -12,6 +12,14 @@ description: Life in pictures
     min-height: 0;
   }
 }
+@media (max-width: 767.98px) {
+  .gallery-lab-row > div {
+    margin-bottom: 0.5rem;
+  }
+  .gallery-lab-row > div:last-child {
+    margin-bottom: 0;
+  }
+}
 </style>
 
 <div class="row">
