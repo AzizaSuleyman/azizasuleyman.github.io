@@ -25,6 +25,9 @@ and hardware boundaries.
     width: 100vw;
     max-width: 100vw;
     margin-left: calc(-50vw + 50%);
+    min-height: 200px;
+    object-fit: cover;
+    object-position: center;
   }
 }
 </style>

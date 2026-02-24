@@ -3,6 +3,17 @@ title: ""
 description: Life in pictures
 ---
 
+<style>
+.gallery-lab-row {
+  min-height: 30vw;
+}
+@media (max-width: 991.98px) {
+  .gallery-lab-row {
+    min-height: 0;
+  }
+}
+</style>
+
 <div class="row">
         <div class="col-md-8 mx-auto text-center mb-5">
           <p class="lead"> Lab in pictures </p>
@@ -18,7 +29,7 @@ description: Life in pictures
 
 **Our custom optical dilfridge is here and now cold!**
 
-<div class="row g-3">
+<div class="row g-3 align-items-center gallery-lab-row">
   <div class="col-12 col-md-6 col-lg-6">
     <div class="video-16x9">
       <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
@@ -44,7 +55,7 @@ description: Life in pictures
 **Hiking around campus**
 
 
-<div class="row g-3 align-items-center" style="padding-top: 2.5rem; padding-bottom: 2.5rem;">
+<div class="row g-3 align-items-center gallery-lab-row">
   <div class="col-6 col-md-4 col-lg-5">
       <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
         <img src="/assets/img/Gallery/hiking5.JPG" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
