@@ -10,19 +10,25 @@
          (only affects alumni cards)
     ========================== -->
     <style>
-      /* Force compact alumni cards (override common theme defaults) */
-      .alumni-card.card-profile { padding-top: 0 !important; min-height: 0 !important; }
+      /* Strip all card chrome — just photo + name */
+      .alumni-card.card-profile {
+        padding: 0 !important;
+        min-height: 0 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+      }
 
-      /* Tight header spacing (themes often reserve extra height here) */
       .alumni-card .card-header {
-        padding: 0.30rem 0 0 !important;
+        padding: 0 !important;
         min-height: 0 !important;
         height: auto !important;
         display: flex !important;
         justify-content: center !important;
+        background: transparent !important;
+        border: none !important;
       }
 
-      /* Many templates float the avatar (absolute/transform). Kill that for compact height. */
       .alumni-card .card-avatar {
         position: static !important;
         transform: none !important;
@@ -34,13 +40,12 @@
         width: 100% !important;
       }
 
-      /* Tight body padding (reduced ~10%) */
       .alumni-card .card-body {
-        padding: 0.27rem 0.75rem 0.50rem !important;
+        padding: 0.2rem 0 0.1rem !important;
+        background: transparent !important;
       }
 
-      /* Optional: slightly tighter bottom spacing between alumni cards (~10%) */
-      .alumni-col { margin-bottom: 0.77rem !important; }
+      .alumni-col { margin-bottom: 0.6rem !important; }
 
       /* Avatar size */
       .alumni-card .card-avatar img.img-raised.rounded-circle {
