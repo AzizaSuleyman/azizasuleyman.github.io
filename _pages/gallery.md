@@ -4,115 +4,131 @@ description: Life in pictures
 ---
 
 <style>
-.gallery-lab-row {
-  min-height: 30vw;
+/* ── Justified gallery ────────────────────────────────────────────────
+   Each figure's flex-grow equals its aspect ratio and its basis is 0,
+   so widths within a row come out proportional to aspect ratio. Since
+   height = width / aspect, every picture in a row lands at exactly the
+   same height and the row fills the full width with no gaps.
+   Set --ar on each figure to (pixel width / pixel height).
+   Add a <figcaption> only where a label is wanted; it is optional. */
+.jgal            { margin: 0 0 3.5rem; }
+.jgal .jrow      { display: flex; flex-wrap: wrap; line-height: 0; }
+
+.jgal figure {
+  position: relative;
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  flex: var(--ar) 1 0;
+  aspect-ratio: var(--ar);
 }
-@media (max-width: 991.98px) {
-  .gallery-lab-row {
-    min-height: 0;
-  }
+.jgal figure a   { display: block; width: 100%; height: 100%; }
+.jgal figure img,
+.jgal figure iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
 }
+
+.jgal figcaption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 1.75rem 0.9rem 0.7rem;
+  color: #fff;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  background: linear-gradient(to top, rgba(0,0,0,.75), rgba(0,0,0,.35) 45%, rgba(0,0,0,0));
+  pointer-events: none;   /* keeps the video controls clickable */
+}
+
+.jgal .year {
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
 @media (max-width: 767.98px) {
-  .gallery-lab-row > div {
-    margin-bottom: 0.5rem;
-  }
-  .gallery-lab-row > div:last-child {
-    margin-bottom: 0;
-  }
+  .jgal figure   { flex: 1 1 50%; }
+  .jgal figcaption { font-size: 0.75rem; padding: 1.25rem 0.6rem 0.5rem; }
 }
 </style>
 
 <div class="row">
-        <div class="col-md-8 mx-auto text-center mb-5">
-          <p class="lead"> Lab in pictures </p>
-        </div>
-</div>
-
-
-<div class="row">
-  <div class="col-md-5 mx-auto text-center mb-5">
-    <p class="lead"> 2026 </p>
+  <div class="col-md-8 mx-auto text-center mb-5">
+    <p class="lead"> Lab in pictures </p>
   </div>
 </div>
 
-<p class="text-center"><strong>Lab kayaking trip</strong></p>
+<div class="jgal">
 
-<div class="row g-3 align-items-center gallery-lab-row mb-md-5">
-  <div class="col-12 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/2026/Kayaking1.jpg" target="_blank">
-      <img src="/assets/img/Gallery/2026/Kayaking1.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
-    </a>
-  </div>
-  <div class="col-12 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/2026/Kayaking2.jpg" target="_blank">
-      <img src="/assets/img/Gallery/2026/Kayaking2.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
-    </a>
-  </div>
-  <div class="col-12 col-md-4 col-lg-5">
-    <a href="/assets/img/Gallery/2026/Kayaking3.jpg" target="_blank">
-      <img src="/assets/img/Gallery/2026/Kayaking3.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
-    </a>
-  </div>
-</div>
+  <p class="lead year"> 2026 </p>
 
-<div class="row">
-  <div class="col-md-5 mx-auto text-center mb-5">
-    <p class="lead"> 2025 </p>
-  </div>
-</div>
-
-<p class="text-center"><strong>Our custom optical dilfridge is here and now cold!</strong></p>
-
-<div class="row g-3 align-items-center gallery-lab-row mb-md-5">
-  <div class="col-12 col-md-6 col-lg-6">
-    <div class="video-16x9">
-      <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <!-- fridge picture 1 -->
-  <div class="col-12 col-md-3 col-lg-3">
-    <a href="/assets/img/Gallery/FridgeHana.jpg" target="_blank">
-      <img src="/assets/img/Gallery/FridgeHana.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
-    </a>
-  </div>
-
-  <!-- fridge picture 2 -->
-  <div class="col-12 col-md-3 col-lg-3">
-    <a href="/assets/img/Gallery/FridgeMireya.jpg" target="_blank">
-      <img src="/assets/img/Gallery/FridgeMireya.jpg" class="img-fluid rounded" alt="Fridge installation" loading="lazy" decoding="async">
-    </a>
-  </div>
- 
-</div>
-
-<p class="text-center"><strong>Hiking around campus</strong></p>
-
-<div class="row g-3 align-items-center gallery-lab-row">
-  <div class="col-12 col-md-4 col-lg-5">
-      <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
-        <img src="/assets/img/Gallery/hiking5.JPG" class="img-fluid rounded" alt="Hiking 3" loading="lazy" decoding="async">
+  <div class="jrow">
+    <figure style="--ar: 0.7525">
+      <a href="/assets/img/Gallery/2026/Kayaking1.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/Kayaking1.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
       </a>
+      <figcaption>Lab kayaking trip</figcaption>
+    </figure>
+    <figure style="--ar: 0.7525">
+      <a href="/assets/img/Gallery/2026/Kayaking2.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/Kayaking2.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure style="--ar: 1.3333">
+      <a href="/assets/img/Gallery/2026/Kayaking3.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/Kayaking3.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
+      </a>
+    </figure>
   </div>
-  <div class="col-12 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/hiking2.JPG" target="_blank">
-      <img src="/assets/img/Gallery/hiking2.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
-    </a>
-  </div>
-  <div class="col-12 col-md-4 col-lg-3">
-    <a href="/assets/img/Gallery/hiking4.JPG" target="_blank">
-      <img src="/assets/img/Gallery/hiking4.JPG" class="img-fluid rounded" alt="Hiking 2" loading="lazy" decoding="async">
-    </a>
-  </div>
-</div>
 
+  <p class="lead year" style="margin-top: 3rem;"> 2025 </p>
+
+  <div class="jrow">
+    <figure style="--ar: 1.7778">
+      <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen title="Our custom optical dilution fridge"></iframe>
+    </figure>
+    <figure style="--ar: 0.75">
+      <a href="/assets/img/Gallery/FridgeHana.jpg" target="_blank">
+        <img src="/assets/img/Gallery/FridgeHana.jpg" alt="Fridge installation" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Our custom optical dilfridge is here — and now cold!</figcaption>
+    </figure>
+    <figure style="--ar: 0.75">
+      <a href="/assets/img/Gallery/FridgeMireya.jpg" target="_blank">
+        <img src="/assets/img/Gallery/FridgeMireya.jpg" alt="Fridge installation" loading="lazy" decoding="async">
+      </a>
+    </figure>
+  </div>
+
+  <div class="jrow">
+    <figure style="--ar: 1.3281">
+      <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
+        <img src="/assets/img/Gallery/hiking5.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Hiking around campus</figcaption>
+    </figure>
+    <figure style="--ar: 0.7529">
+      <a href="/assets/img/Gallery/hiking2.JPG" target="_blank">
+        <img src="/assets/img/Gallery/hiking2.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure style="--ar: 0.7529">
+      <a href="/assets/img/Gallery/hiking4.JPG" target="_blank">
+        <img src="/assets/img/Gallery/hiking4.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
+      </a>
+    </figure>
+  </div>
+
+</div>
 
 <div class="row">
   <div class="col-md-8 mx-auto text-center mb-5">
     <p class="lead"> Science in animations </p>
   </div>
 </div>
-
 <div class="row align-items-center">
   <div class="col-lg-4 col-md-6 mx-auto">
     <p>
