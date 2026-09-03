@@ -31,6 +31,32 @@ description: Life in pictures
 
 <div class="row">
   <div class="col-md-5 mx-auto text-center mb-5">
+    <p class="lead"> 2026 </p>
+  </div>
+</div>
+
+<p class="text-center"><strong>Lab kayaking trip</strong></p>
+
+<div class="row g-3 align-items-center gallery-lab-row mb-md-5">
+  <div class="col-12 col-md-4 col-lg-3">
+    <a href="/assets/img/Gallery/2026/Kayaking1.jpg" target="_blank">
+      <img src="/assets/img/Gallery/2026/Kayaking1.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
+    </a>
+  </div>
+  <div class="col-12 col-md-4 col-lg-3">
+    <a href="/assets/img/Gallery/2026/Kayaking2.jpg" target="_blank">
+      <img src="/assets/img/Gallery/2026/Kayaking2.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
+    </a>
+  </div>
+  <div class="col-12 col-md-4 col-lg-5">
+    <a href="/assets/img/Gallery/2026/Kayaking3.jpg" target="_blank">
+      <img src="/assets/img/Gallery/2026/Kayaking3.jpg" class="img-fluid rounded" alt="Lab kayaking trip" loading="lazy" decoding="async">
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-5 mx-auto text-center mb-5">
     <p class="lead"> 2025 </p>
   </div>
 </div>
