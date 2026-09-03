@@ -115,6 +115,12 @@ description: Life in pictures
         <img src="/assets/img/Gallery/2026/Kayaking3.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
       </a>
     </figure>
+    <figure style="--ar: 0.7525">
+      <a href="/assets/img/Gallery/2026/LunchLab-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/LunchLab-web.jpg" alt="Lab lunch at Jupiter" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Jupiter</figcaption>
+    </figure>
   </div>
 
   <p class="lead year" style="margin-top: 3rem;"> 2025 </p>
