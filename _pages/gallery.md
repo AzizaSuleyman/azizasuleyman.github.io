@@ -66,6 +66,39 @@ description: Life in pictures
   <p class="lead year"> 2026 </p>
 
   <div class="jrow">
+    <figure style="--ar: 0.75">
+      <a href="/assets/img/Gallery/2026/2Dmotplastic-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/2Dmotplastic-web.jpg" alt="2D MOT assembly in the cryostat" loading="lazy" decoding="async">
+      </a>
+      <figcaption>2D MOT mock-up in the cryostat</figcaption>
+    </figure>
+    <figure style="--ar: 1.3333">
+      <a href="/assets/img/Gallery/2026/2dmotattachment-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/2dmotattachment-web.jpg" alt="Attaching the 2D MOT" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Attaching the 2D MOT</figcaption>
+    </figure>
+    <figure style="--ar: 2.0253">
+      <a href="/assets/img/Gallery/2026/2DMot-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/2DMot-web.jpg" alt="First 2D MOT" loading="lazy" decoding="async">
+      </a>
+      <figcaption>First 2D MOT</figcaption>
+    </figure>
+    <figure style="--ar: 0.75">
+      <a href="/assets/img/Gallery/2026/CryoMOT-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/CryoMOT-web.jpg" alt="The cryogenic MOT chamber" loading="lazy" decoding="async">
+      </a>
+      <figcaption>The cryogenic MOT chamber</figcaption>
+    </figure>
+    <figure style="--ar: 0.75">
+      <a href="/assets/img/Gallery/2026/Installing2DMot-web.jpg" target="_blank">
+        <img src="/assets/img/Gallery/2026/Installing2DMot-web.jpg" alt="Installing the 2D MOT" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Installing the 2D MOT</figcaption>
+    </figure>
+  </div>
+
+  <div class="jrow">
     <figure style="--ar: 0.7525">
       <a href="/assets/img/Gallery/2026/Kayaking1.jpg" target="_blank">
         <img src="/assets/img/Gallery/2026/Kayaking1.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
