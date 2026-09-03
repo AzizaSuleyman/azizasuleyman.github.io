@@ -88,6 +88,25 @@ description: Life in pictures
   </div>
 
   <div class="jrow">
+    <figure style="--ar: 0.75">
+      <img src="/assets/img/Gallery/2026/Atoms-web.jpg" alt="Atoms in the chamber" loading="lazy" decoding="async">
+      <figcaption>Atoms</figcaption>
+    </figure>
+    <figure style="--ar: 0.75">
+      <img src="/assets/img/Gallery/2026/CavitySmall-web.jpg" alt="The small cavity assembly" loading="lazy" decoding="async">
+      <figcaption>The cavity</figcaption>
+    </figure>
+    <figure style="--ar: 1.3333">
+      <img src="/assets/img/Gallery/2026/atomGlow-web.jpg" alt="Atoms glowing in the science chamber" loading="lazy" decoding="async">
+      <figcaption>Atom glow</figcaption>
+    </figure>
+    <figure style="--ar: 1.3333">
+      <img src="/assets/img/Gallery/2026/roomtemp-web.jpg" alt="The room-temperature experiment and the team" loading="lazy" decoding="async">
+      <figcaption>The room-temperature experiment</figcaption>
+    </figure>
+  </div>
+
+  <div class="jrow">
     <figure style="--ar: 0.7525">
       <img src="/assets/img/Gallery/2026/Kayaking1.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
       <figcaption>Lab kayaking trip</figcaption>
