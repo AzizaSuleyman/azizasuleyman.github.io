@@ -22,7 +22,6 @@ description: Life in pictures
   flex: var(--ar) 1 0;
   aspect-ratio: var(--ar);
 }
-.jgal figure a   { display: block; width: 100%; height: 100%; }
 .jgal figure img,
 .jgal figure iframe {
   display: block;
@@ -67,58 +66,40 @@ description: Life in pictures
 
   <div class="jrow">
     <figure style="--ar: 0.75">
-      <a href="/assets/img/Gallery/2026/2Dmotplastic-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/2Dmotplastic-web.jpg" alt="2D MOT assembly in the cryostat" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/2Dmotplastic-web.jpg" alt="2D MOT assembly in the cryostat" loading="lazy" decoding="async">
       <figcaption>2D MOT mock-up in the cryostat</figcaption>
     </figure>
     <figure style="--ar: 1.3333">
-      <a href="/assets/img/Gallery/2026/2dmotattachment-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/2dmotattachment-web.jpg" alt="Attaching the 2D MOT" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/2dmotattachment-web.jpg" alt="Attaching the 2D MOT" loading="lazy" decoding="async">
       <figcaption>Attaching the 2D MOT</figcaption>
     </figure>
     <figure style="--ar: 2.0253">
-      <a href="/assets/img/Gallery/2026/2DMot-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/2DMot-web.jpg" alt="First 2D MOT" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/2DMot-web.jpg" alt="First 2D MOT" loading="lazy" decoding="async">
       <figcaption>First 2D MOT</figcaption>
     </figure>
     <figure style="--ar: 0.75">
-      <a href="/assets/img/Gallery/2026/CryoMOT-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/CryoMOT-web.jpg" alt="The cryogenic MOT chamber" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/CryoMOT-web.jpg" alt="The cryogenic MOT chamber" loading="lazy" decoding="async">
       <figcaption>The cryogenic MOT chamber</figcaption>
     </figure>
     <figure style="--ar: 0.75">
-      <a href="/assets/img/Gallery/2026/Installing2DMot-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/Installing2DMot-web.jpg" alt="Installing the 2D MOT" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/Installing2DMot-web.jpg" alt="Installing the 2D MOT" loading="lazy" decoding="async">
       <figcaption>Installing the 2D MOT</figcaption>
     </figure>
   </div>
 
   <div class="jrow">
     <figure style="--ar: 0.7525">
-      <a href="/assets/img/Gallery/2026/Kayaking1.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/Kayaking1.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/Kayaking1.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
       <figcaption>Lab kayaking trip</figcaption>
     </figure>
     <figure style="--ar: 0.7525">
-      <a href="/assets/img/Gallery/2026/Kayaking2.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/Kayaking2.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/Kayaking2.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
     </figure>
     <figure style="--ar: 1.3333">
-      <a href="/assets/img/Gallery/2026/Kayaking3.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/Kayaking3.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/Kayaking3.jpg" alt="Lab kayaking trip" loading="lazy" decoding="async">
     </figure>
     <figure style="--ar: 0.7525">
-      <a href="/assets/img/Gallery/2026/LunchLab-web.jpg" target="_blank">
-        <img src="/assets/img/Gallery/2026/LunchLab-web.jpg" alt="Lab lunch at Jupiter" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/2026/LunchLab-web.jpg" alt="Lab lunch at Jupiter" loading="lazy" decoding="async">
       <figcaption>Jupiter</figcaption>
     </figure>
   </div>
@@ -130,34 +111,24 @@ description: Life in pictures
       <iframe src="https://www.youtube.com/embed/p2RfcLvpRFw?rel=0" allowfullscreen title="Our custom optical dilution fridge"></iframe>
     </figure>
     <figure style="--ar: 0.75">
-      <a href="/assets/img/Gallery/FridgeHana.jpg" target="_blank">
-        <img src="/assets/img/Gallery/FridgeHana.jpg" alt="Fridge installation" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/FridgeHana.jpg" alt="Fridge installation" loading="lazy" decoding="async">
       <figcaption>Our custom optical dilfridge is here — and now cold!</figcaption>
     </figure>
     <figure style="--ar: 0.75">
-      <a href="/assets/img/Gallery/FridgeMireya.jpg" target="_blank">
-        <img src="/assets/img/Gallery/FridgeMireya.jpg" alt="Fridge installation" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/FridgeMireya.jpg" alt="Fridge installation" loading="lazy" decoding="async">
     </figure>
   </div>
 
   <div class="jrow">
     <figure style="--ar: 1.3281">
-      <a href="/assets/img/Gallery/hiking5.JPG" target="_blank">
-        <img src="/assets/img/Gallery/hiking5.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/hiking5.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
       <figcaption>Hiking around campus</figcaption>
     </figure>
     <figure style="--ar: 0.7529">
-      <a href="/assets/img/Gallery/hiking2.JPG" target="_blank">
-        <img src="/assets/img/Gallery/hiking2.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/hiking2.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
     </figure>
     <figure style="--ar: 0.7529">
-      <a href="/assets/img/Gallery/hiking4.JPG" target="_blank">
-        <img src="/assets/img/Gallery/hiking4.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
-      </a>
+      <img src="/assets/img/Gallery/hiking4.JPG" alt="Hiking around campus" loading="lazy" decoding="async">
     </figure>
   </div>
 
